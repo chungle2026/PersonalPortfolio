@@ -22,15 +22,15 @@ export default function ArtistStatement() {
             
             {/* Artist Photo - Smaller */}
             <div className="lg:col-span-2 bg-white rounded-xl p-6 shadow-lg flex flex-col justify-center">
-              <div className="overflow-hidden rounded-lg">
+              <div className="overflow-hidden">
                 <img
                   src={artistPhotoImage}
                   alt="Lewis Chung - Composer and Pianist"
-                  className="w-full max-w-none scale-150 h-auto transform origin-center"
+                  className="w-full max-w-none scale-150 h-auto transform origin-center border-0"
                 />
               </div>
               <p className="text-xs text-gray-500 mt-2 text-center">
-                Photo credit: MR. GUMBATRONTM
+                Photo credit: MR. GUMBATRON<sup>TM</sup>
               </p>
             </div>
           </div>
