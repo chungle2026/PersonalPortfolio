@@ -9,7 +9,7 @@ export default function ArtistStatement() {
           Artist Statement
         </h2>
         
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-5 gap-8 items-start">
             {/* Artist Statement Text Image - Larger */}
             <div className="lg:col-span-3">

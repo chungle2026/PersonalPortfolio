@@ -57,7 +57,7 @@ export default function Contact() {
       <div className="container mx-auto px-6">
         <h2 className="text-3xl md:text-4xl font-display font-bold text-primary mb-8 text-center">Contact</h2>
         
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-start">
             {/* Speaking Photo */}
             <div className="flex justify-center lg:justify-start">

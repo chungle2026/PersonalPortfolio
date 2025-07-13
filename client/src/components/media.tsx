@@ -35,7 +35,7 @@ export default function Media() {
       <div className="container mx-auto px-6">
         <h2 className="text-3xl md:text-4xl font-display font-bold text-primary mb-8 text-center">Media</h2>
         
-        <div className="max-w-6xl mx-auto space-y-16">
+        <div className="max-w-7xl mx-auto space-y-16">
           {videoCategories.map((category, categoryIndex) => (
             <div key={categoryIndex}>
               <h3 className="text-xl font-display font-semibold text-primary mb-2 text-left">{category.title}</h3>
