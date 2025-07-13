@@ -1,5 +1,6 @@
 import biographyImage from "@assets/biography.jpg";
 import personalPhoto from "@assets/score_by_door_v2.jpg";
+import quotesImage from "@assets/quotes.jpg";
 
 export default function About() {
   return (
@@ -26,6 +27,15 @@ export default function About() {
                 className="rounded-xl shadow-lg w-3/4 h-auto object-cover"
               />
             </div>
+          </div>
+          
+          {/* Quotes Section */}
+          <div className="mt-16 max-w-4xl mx-auto">
+            <img
+              src={quotesImage}
+              alt="Press quotes about Lewis Chung"
+              className="rounded-xl shadow-lg w-full h-auto object-cover"
+            />
           </div>
         </div>
       </div>
