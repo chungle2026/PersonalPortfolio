@@ -32,7 +32,7 @@ export default function Hero() {
         
         {/* Photo Credits */}
         <div className="absolute bottom-2 right-4 z-10">
-          <p className="text-[10px] md:text-xs text-white/70 drop-shadow-sm">
+          <p className="text-[8px] md:text-xs text-white/70 drop-shadow-sm">
             Photo credit: Hadixos
           </p>
         </div>
