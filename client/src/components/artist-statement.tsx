@@ -16,7 +16,7 @@ export default function ArtistStatement() {
               <img
                 src={artistStatementImage}
                 alt="Artist Statement"
-                className="w-full h-auto rounded-lg"
+                className="w-full h-auto rounded-lg md:scale-90"
               />
             </div>
             

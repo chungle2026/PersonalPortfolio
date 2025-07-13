@@ -15,7 +15,7 @@ export default function About() {
               <img
                 src={biographyImage}
                 alt="Lewis Chung Biography"
-                className="rounded-xl shadow-lg w-full h-auto object-cover"
+                className="rounded-xl shadow-lg w-full h-auto object-cover md:scale-90"
               />
             </div>
             
@@ -38,7 +38,7 @@ export default function About() {
               <img
                 src={quotesImage}
                 alt="Press quotes about Lewis Chung"
-                className="rounded-lg md:rounded-xl shadow-lg md:shadow-none w-full h-auto object-cover scale-125 md:scale-100"
+                className="rounded-lg md:rounded-xl shadow-lg md:shadow-none w-full h-auto object-cover scale-125 md:scale-90"
               />
             </div>
           </div>
