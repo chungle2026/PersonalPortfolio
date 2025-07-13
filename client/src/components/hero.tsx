@@ -29,6 +29,13 @@ export default function Hero() {
           </div>
 
         </div>
+        
+        {/* Photo Credits */}
+        <div className="absolute bottom-2 right-4 z-10">
+          <p className="text-xs text-white/70 drop-shadow-sm">
+            Photo credits: Thanks to MR. GUMBATRON<sup>TM</sup> and Hadixos
+          </p>
+        </div>
       </div>
     </section>
   );
