@@ -20,7 +20,7 @@ export default function About() {
             </div>
             
             {/* Personal Photo - Right Side - Smaller */}
-            <div className="lg:col-span-2 lg:order-2 flex flex-col justify-center">
+            <div className="lg:col-span-2 lg:order-2 flex flex-col">
               <img
                 src={personalPhoto}
                 alt="Lewis Chung"
