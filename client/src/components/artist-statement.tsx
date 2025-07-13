@@ -1,4 +1,4 @@
-import artistStatementImage from "@assets/artist-statement.jpg";
+import artistStatementImage from "@assets/Artist Statement JPG_1752415532976.jpg";
 import artistPhotoImage from "@assets/artist-photo.jpg";
 
 export default function ArtistStatement() {
