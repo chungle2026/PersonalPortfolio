@@ -1,5 +1,5 @@
-import biographyImage from "@assets/Biography JPG_1752384268010.jpg";
-import personalPhoto from "@assets/Score by Door_V2_1752384333596.JPG";
+import biographyImage from "@assets/biography.jpg";
+import personalPhoto from "@assets/score_by_door_v2.jpg";
 
 export default function About() {
   return (
