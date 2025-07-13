@@ -13,11 +13,13 @@ export default function ArtistStatement() {
           <div className="grid lg:grid-cols-5 gap-8 items-start">
             {/* Artist Statement Text Image - Larger */}
             <div className="lg:col-span-3 flex flex-col">
-              <img
-                src={artistStatementImage}
-                alt="Artist Statement"
-                className="w-full h-auto rounded-lg md:scale-90"
-              />
+              <div className="md:scale-90 md:origin-top">
+                <img
+                  src={artistStatementImage}
+                  alt="Artist Statement"
+                  className="w-full h-auto rounded-lg"
+                />
+              </div>
             </div>
             
             {/* Artist Photo - Smaller */}

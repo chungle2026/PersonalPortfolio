@@ -12,11 +12,13 @@ export default function About() {
           <div className="grid lg:grid-cols-5 gap-12 items-start">
             {/* Biography Image - Left Side - Larger */}
             <div className="lg:col-span-3 lg:order-1 flex flex-col">
-              <img
-                src={biographyImage}
-                alt="Lewis Chung Biography"
-                className="rounded-xl shadow-lg w-full h-auto object-cover md:scale-90"
-              />
+              <div className="md:scale-90 md:origin-top">
+                <img
+                  src={biographyImage}
+                  alt="Lewis Chung Biography"
+                  className="rounded-xl shadow-lg w-full h-auto object-cover"
+                />
+              </div>
             </div>
             
             {/* Personal Photo - Right Side - Smaller */}
