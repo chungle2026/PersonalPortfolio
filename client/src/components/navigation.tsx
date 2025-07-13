@@ -26,7 +26,7 @@ export default function Navigation() {
     <header className={`fixed top-0 left-0 right-0 z-50 bg-black/95 backdrop-blur-sm border-b border-gray-800 transition-shadow duration-200 ${scrolled ? 'shadow-lg' : ''}`}>
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="text-2xl font-display font-semibold text-white">
+          <div className="text-xl font-display font-semibold text-white">
             Composer • Pianist
           </div>
           

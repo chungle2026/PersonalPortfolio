@@ -33,12 +33,12 @@ export default function Media() {
   return (
     <section id="media" className="py-16 bg-white">
       <div className="container mx-auto px-6">
-        <h2 className="text-4xl md:text-5xl font-display font-bold text-primary mb-8 text-center">Media</h2>
+        <h2 className="text-3xl md:text-4xl font-display font-bold text-primary mb-8 text-center">Media</h2>
         
         <div className="max-w-6xl mx-auto space-y-16">
           {videoCategories.map((category, categoryIndex) => (
             <div key={categoryIndex}>
-              <h3 className="text-3xl font-display font-semibold text-primary mb-2 text-left">{category.title}</h3>
+              <h3 className="text-xl font-display font-semibold text-primary mb-2 text-left">{category.title}</h3>
               {category.title === "Cross-genre" && (
                 <p className="text-lg text-gray-600 mb-8 text-center">for example: film, art, Anime, machine-learning. Samples available upon request</p>
               )}

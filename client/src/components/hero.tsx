@@ -6,7 +6,7 @@ export default function Hero() {
       <div className="container mx-auto px-6">
         <div className="flex justify-center items-center min-h-[30vh] md:min-h-[60vh]">
           <div className="text-center max-w-2xl">
-            <h1 className="text-5xl md:text-6xl font-display font-bold text-primary mb-2 md:mb-6 leading-tight">
+            <h1 className="text-4xl md:text-5xl font-display font-bold text-primary mb-2 md:mb-6 leading-tight">
               Lewis<br />
               <span className="text-secondary">Chung</span>
             </h1>
