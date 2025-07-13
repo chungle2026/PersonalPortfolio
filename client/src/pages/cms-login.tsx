@@ -33,31 +33,18 @@ export default function CmsLogin() {
   const onSubmit = async (data: LoginForm) => {
     setIsLoading(true);
     try {
-      const response = await apiRequest("/api/cms/login", {
-        method: "POST",
-        body: JSON.stringify(data),
+      const response = await apiRequest("POST", "/api/cms/login", data);
+      const { sessionId } = await response.json();
+      localStorage.setItem("cms_session_id", sessionId);
+      toast({
+        title: "Login successful",
+        description: "Welcome to the CMS",
       });
-
-      if (response.ok) {
-        const { sessionId } = await response.json();
-        localStorage.setItem("cms_session_id", sessionId);
-        toast({
-          title: "Login successful",
-          description: "Welcome to the CMS",
-        });
-        navigate("/cms");
-      } else {
-        const error = await response.json();
-        toast({
-          title: "Login failed",
-          description: error.error || "Invalid credentials",
-          variant: "destructive",
-        });
-      }
+      navigate("/cms");
     } catch (error) {
       toast({
         title: "Login failed",
-        description: "An error occurred during login",
+        description: error instanceof Error ? error.message : "Invalid credentials",
         variant: "destructive",
       });
     } finally {

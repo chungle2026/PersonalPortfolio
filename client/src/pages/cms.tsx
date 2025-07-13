@@ -53,7 +53,7 @@ export default function CmsPanel() {
   const { data: content, isLoading } = useQuery({
     queryKey: ["/api/cms/content"],
     queryFn: async () => {
-      const response = await apiRequest("/api/cms/content", {
+      const response = await fetch("/api/cms/content", {
         headers: { "x-session-id": sessionId! },
       });
       if (!response.ok) {
@@ -70,9 +70,12 @@ export default function CmsPanel() {
 
   const createMutation = useMutation({
     mutationFn: async (data: ContentForm) => {
-      const response = await apiRequest("/api/cms/content", {
+      const response = await fetch("/api/cms/content", {
         method: "POST",
-        headers: { "x-session-id": sessionId! },
+        headers: { 
+          "Content-Type": "application/json",
+          "x-session-id": sessionId! 
+        },
         body: JSON.stringify(data),
       });
       if (!response.ok) {
@@ -99,9 +102,12 @@ export default function CmsPanel() {
 
   const updateMutation = useMutation({
     mutationFn: async ({ id, data }: { id: number; data: ContentForm }) => {
-      const response = await apiRequest(`/api/cms/content/${id}`, {
+      const response = await fetch(`/api/cms/content/${id}`, {
         method: "PUT",
-        headers: { "x-session-id": sessionId! },
+        headers: { 
+          "Content-Type": "application/json",
+          "x-session-id": sessionId! 
+        },
         body: JSON.stringify(data),
       });
       if (!response.ok) {
@@ -129,7 +135,7 @@ export default function CmsPanel() {
 
   const deleteMutation = useMutation({
     mutationFn: async (id: number) => {
-      const response = await apiRequest(`/api/cms/content/${id}`, {
+      const response = await fetch(`/api/cms/content/${id}`, {
         method: "DELETE",
         headers: { "x-session-id": sessionId! },
       });
@@ -156,7 +162,7 @@ export default function CmsPanel() {
 
   const handleLogout = async () => {
     try {
-      await apiRequest("/api/cms/logout", {
+      await fetch("/api/cms/logout", {
         method: "POST",
         headers: { "x-session-id": sessionId! },
       });
