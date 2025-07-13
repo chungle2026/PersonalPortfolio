@@ -35,12 +35,12 @@ export default function About() {
           </div>
           
           {/* Quotes Section */}
-          <div className="mt-10 max-w-6xl mx-auto flex justify-center">
-            <div className="w-full md:w-3/4 bg-white md:p-6 rounded-xl md:shadow-xl">
+          <div className="mt-10 max-w-5xl mx-auto flex justify-center">
+            <div className="w-full md:w-3/4 bg-white md:p-3 rounded-xl md:shadow-xl">
               <img
                 src={quotesImage}
                 alt="Press quotes about Lewis Chung"
-                className="rounded-lg md:rounded-xl shadow-lg md:shadow-none w-full h-auto object-cover scale-125 md:scale-95"
+                className="rounded-lg md:rounded-xl shadow-lg md:shadow-none w-full h-auto object-cover scale-125 md:scale-81"
               />
             </div>
           </div>
