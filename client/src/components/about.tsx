@@ -9,16 +9,10 @@ export default function About() {
             {/* Biography Image */}
             <div className="order-1">
               <img
-                src="/api/placeholder/600/800"
+                src="@assets/Biography JPG_1752384268010.jpg"
                 alt="Lewis Chung Biography"
                 className="rounded-xl shadow-lg w-full h-auto object-cover"
-                style={{ display: 'none' }}
-                id="bio-image"
               />
-              <div className="bg-gray-50 p-8 rounded-xl" id="bio-placeholder">
-                <h3 className="text-2xl font-display font-semibold text-primary mb-4">Biography</h3>
-                <p className="text-gray-600">Please upload your biography image to replace this placeholder.</p>
-              </div>
             </div>
             
             {/* Personal Photo */}
