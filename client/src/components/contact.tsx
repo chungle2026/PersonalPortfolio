@@ -12,6 +12,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
 import { Mail, Phone, MapPin } from "lucide-react";
 import type { InsertContactSubmission } from "@shared/schema";
+import speakingPhoto from "@assets/speaking-photo.jpg";
 
 export default function Contact() {
   const { toast } = useToast();
@@ -56,9 +57,21 @@ export default function Contact() {
       <div className="container mx-auto px-6">
         <h2 className="text-4xl md:text-5xl font-display font-bold text-primary mb-12 text-center">Contact</h2>
         
-        <div className="max-w-2xl mx-auto">
-          <Form {...form}>
-            <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
+        <div className="max-w-6xl mx-auto">
+          <div className="grid lg:grid-cols-2 gap-12 items-start">
+            {/* Speaking Photo */}
+            <div className="flex justify-center lg:justify-start">
+              <img
+                src={speakingPhoto}
+                alt="Lewis Chung speaking at a performance venue"
+                className="rounded-xl shadow-lg w-full max-w-md h-auto object-cover"
+              />
+            </div>
+            
+            {/* Contact Form */}
+            <div className="max-w-lg mx-auto lg:mx-0">
+              <Form {...form}>
+                <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
               <FormField
                 control={form.control}
                 name="name"
@@ -129,15 +142,17 @@ export default function Contact() {
                 )}
               />
               
-              <Button 
-                type="submit" 
-                className="w-full bg-primary hover:bg-secondary"
-                disabled={contactMutation.isPending}
-              >
-                {contactMutation.isPending ? "Sending..." : "Send Message"}
-              </Button>
-            </form>
-          </Form>
+                  <Button 
+                    type="submit" 
+                    className="w-full bg-primary hover:bg-secondary"
+                    disabled={contactMutation.isPending}
+                  >
+                    {contactMutation.isPending ? "Sending..." : "Send Message"}
+                  </Button>
+                </form>
+              </Form>
+            </div>
+          </div>
         </div>
       </div>
     </section>
