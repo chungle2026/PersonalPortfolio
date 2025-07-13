@@ -26,7 +26,7 @@ export default function About() {
                 alt="Lewis Chung"
                 className="rounded-xl shadow-lg w-full h-auto object-cover"
                 style={{
-                  filter: 'brightness(1.15) contrast(1.1) blur(0.3px) saturate(1.05)'
+                  filter: 'brightness(1.2) contrast(1.05) blur(0.8px) saturate(1.1)'
                 }}
               />
               <p className="text-xs text-gray-500 mt-2 text-center">
