@@ -1,4 +1,3 @@
-import biographyImage from "@assets/biography-updated.jpg";
 import personalPhoto from "@assets/Score by Door_V2_editedFOTOR_1752415188491.jpg";
 import quotesImage from "@assets/quotes.jpg";
 
@@ -10,14 +9,32 @@ export default function About() {
           <h2 className="text-3xl md:text-4xl font-display font-bold text-primary mb-8 text-center">About</h2>
           
           <div className="grid lg:grid-cols-5 gap-12 items-start">
-            {/* Biography Image - Left Side - Larger */}
+            {/* Biography Text - Left Side - Larger */}
             <div className="lg:col-span-3 lg:order-1 flex flex-col">
               <div className="md:scale-90 md:origin-top">
-                <img
-                  src={biographyImage}
-                  alt="Lewis Chung Biography"
-                  className="rounded-xl shadow-lg w-full h-auto object-cover"
-                />
+                <div className="bg-gray-100 rounded-xl shadow-lg p-6 md:p-8">
+                  <div className="prose prose-lg max-w-none">
+                    <p className="text-gray-800 font-serif leading-relaxed text-sm md:text-base mb-4">
+                      Lewis Chung is an Australian composer and pianist, based in Hong Kong. He was a 2025 Composing Fellow in the studio of Gabriela Ortiz (three-time Grammy winner and composer-in-residence at Carnegie Hall), under an Artist Diploma program with Orchestra of the Americas.
+                    </p>
+                    
+                    <p className="text-gray-800 font-serif leading-relaxed text-sm md:text-base mb-4">
+                      Notable collaborations include an orchestral composition inspired by Cubism art, performed by the Hong Kong Philharmonic Orchestra. He premiered an orchestral work in Brazil with the Orquestra Sinfônica da Unicamp, and also a work with the globally acclaimed Mivos Quartet at the Universität MDW (Vienna). A solo violin piece was recorded by Juliette Kang, first associate concertmaster of the Philadelphia Orchestra.
+                    </p>
+                    
+                    <p className="text-gray-800 font-serif leading-relaxed text-sm md:text-base mb-4">
+                      Recent engagements include a two pianos museum concert in Kuwait, featuring a Chopin Competition Laureate. The concert featured original anime-inspired music, hosted by the Kuwait National Council for Culture, Arts and Letters. He also collaborated with a leading digital artist, on an installation at Art Basel (Hong Kong). The work was highlighted in seven media outlets, including The Financial Times (UK), for its innovative integration of music, art and machine learning.
+                    </p>
+                    
+                    <p className="text-gray-800 font-serif leading-relaxed text-sm md:text-base mb-4">
+                      Lewis has appeared in masterclasses with renowned composers, including Nico Muhly, Ellen Reid, Oscar Bianchi, Patricia Alessandrini, Sky Macklay and Detlev Müller-Siemens, and attended the São Paulo Contemporary Composers Festival. His music was featured by Seefood Room in Hong Kong, alongside an exhibition of global emerging visual artists.
+                    </p>
+                    
+                    <p className="text-gray-800 font-serif leading-relaxed text-sm md:text-base mb-0">
+                      A graduate of the Wharton School at the University of Pennsylvania, he subsequently undertook Graduate studies in both composition and piano at the Lamont School of Music (Denver) with department chairs Sean Friar and Stephanie Cheng. Beginning piano at age 5 in Australia, his prior teachers were faculty members of Sydney Conservatorium. Private teachers included Amy Sze (student of Nelita True), Joshua Tsai (student of Leon Fleisher) and Madeleine Lawrence (student of Neta Maughan).
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
             
