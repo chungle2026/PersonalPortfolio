@@ -5,7 +5,7 @@ export default function ArtistStatement() {
   return (
     <section id="artist-statement" className="py-16 bg-gray-50">
       <div className="container mx-auto px-6">
-        <h2 className="text-3xl md:text-4xl font-display font-bold text-primary mb-8 text-center">
+        <h2 className="text-2xl md:text-3xl font-display font-bold text-primary mb-8 text-center">
           Artist Statement
         </h2>
         
