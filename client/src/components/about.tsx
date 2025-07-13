@@ -18,16 +18,10 @@ export default function About() {
             {/* Personal Photo */}
             <div className="order-2">
               <img
-                src="/api/placeholder/600/800"
+                src="@assets/Score by Door_V2_1752384333596.JPG"
                 alt="Lewis Chung"
                 className="rounded-xl shadow-lg w-full h-auto object-cover"
-                style={{ display: 'none' }}
-                id="personal-photo"
               />
-              <div className="bg-gray-50 p-8 rounded-xl" id="photo-placeholder">
-                <h3 className="text-2xl font-display font-semibold text-primary mb-4">Photo</h3>
-                <p className="text-gray-600">Please upload your personal photo to replace this placeholder.</p>
-              </div>
             </div>
           </div>
         </div>
