@@ -21,11 +21,11 @@ export default function ArtistStatement() {
             </div>
             
             {/* Artist Photo - Smaller */}
-            <div className="lg:col-span-1 bg-white rounded-xl p-6 shadow-lg flex justify-center">
+            <div className="lg:col-span-1 bg-white rounded-xl p-6 shadow-lg flex justify-center overflow-hidden">
               <img
                 src={artistPhotoImage}
                 alt="Lewis Chung - Composer and Pianist"
-                className="w-full max-w-none scale-150 h-auto rounded-lg"
+                className="w-full max-w-none scale-150 h-auto rounded-lg transform origin-center"
               />
             </div>
           </div>
