@@ -3,6 +3,7 @@ import { createServer, type Server } from "http";
 import { storage } from "./storage";
 import { insertContactSubmissionSchema } from "@shared/schema";
 import { z } from "zod";
+import { emailService } from "./emailService";
 
 export async function registerRoutes(app: Express): Promise<Server> {
   // Contact form submission
@@ -10,6 +11,15 @@ export async function registerRoutes(app: Express): Promise<Server> {
     try {
       const validatedData = insertContactSubmissionSchema.parse(req.body);
       const submission = await storage.createContactSubmission(validatedData);
+      
+      // Send email notification
+      try {
+        await emailService.sendContactFormEmail(submission);
+      } catch (emailError) {
+        console.error('Email sending failed:', emailError);
+        // Continue with success response even if email fails
+      }
+      
       res.json({ success: true, submission });
     } catch (error) {
       if (error instanceof z.ZodError) {
