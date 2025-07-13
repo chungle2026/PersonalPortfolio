@@ -23,10 +23,10 @@ export default function Navigation() {
   ];
 
   return (
-    <header className={`fixed top-0 left-0 right-0 z-50 bg-amber-50/95 backdrop-blur-sm border-b border-amber-100 transition-shadow duration-200 ${scrolled ? 'shadow-lg' : ''}`}>
+    <header className={`fixed top-0 left-0 right-0 z-50 bg-black/95 backdrop-blur-sm border-b border-gray-800 transition-shadow duration-200 ${scrolled ? 'shadow-lg' : ''}`}>
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="text-2xl font-display font-semibold text-primary">
+          <div className="text-2xl font-display font-semibold text-white">
             Composer • Pianist
           </div>
           
@@ -36,7 +36,7 @@ export default function Navigation() {
               <a
                 key={item.href}
                 href={item.href}
-                className="font-sans text-sm font-medium text-primary hover:text-secondary transition-colors duration-200"
+                className="font-sans text-sm font-medium text-white hover:text-gray-300 transition-colors duration-200"
               >
                 {item.label}
               </a>
@@ -46,7 +46,7 @@ export default function Navigation() {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="md:hidden p-2"
+            className="md:hidden p-2 text-white"
           >
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
@@ -54,12 +54,12 @@ export default function Navigation() {
         
         {/* Mobile Navigation Menu */}
         {isMenuOpen && (
-          <div className="md:hidden pt-4 pb-2 border-t border-border mt-4">
+          <div className="md:hidden pt-4 pb-2 border-t border-gray-700 mt-4">
             {navItems.map((item) => (
               <a
                 key={item.href}
                 href={item.href}
-                className="block py-2 font-sans text-sm font-medium text-primary hover:text-secondary transition-colors duration-200"
+                className="block py-2 font-sans text-sm font-medium text-white hover:text-gray-300 transition-colors duration-200"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {item.label}
