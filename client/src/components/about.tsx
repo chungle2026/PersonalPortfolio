@@ -3,7 +3,7 @@ import personalPhoto from "@assets/score_by_door_v2.jpg";
 
 export default function About() {
   return (
-    <section id="about" className="py-20 bg-white">
+    <section id="about" className="pt-12 pb-20 bg-white">
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-display font-bold text-primary mb-12 text-center">About</h2>
