@@ -31,9 +31,9 @@ export default function Media() {
   ];
 
   return (
-    <section id="media" className="py-20 bg-white">
+    <section id="media" className="py-16 bg-white">
       <div className="container mx-auto px-6">
-        <h2 className="text-4xl md:text-5xl font-display font-bold text-primary mb-12 text-center">Media</h2>
+        <h2 className="text-4xl md:text-5xl font-display font-bold text-primary mb-8 text-center">Media</h2>
         
         <div className="max-w-6xl mx-auto space-y-16">
           {videoCategories.map((category, categoryIndex) => (

@@ -3,9 +3,9 @@ import artistPhotoImage from "@assets/artist-photo.jpg";
 
 export default function ArtistStatement() {
   return (
-    <section id="artist-statement" className="py-20 bg-gray-50">
+    <section id="artist-statement" className="py-16 bg-gray-50">
       <div className="container mx-auto px-6">
-        <h2 className="text-4xl md:text-5xl font-display font-bold text-primary mb-12 text-center">
+        <h2 className="text-4xl md:text-5xl font-display font-bold text-primary mb-8 text-center">
           Artist Statement
         </h2>
         

@@ -4,10 +4,10 @@ import quotesImage from "@assets/quotes.jpg";
 
 export default function About() {
   return (
-    <section id="about" className="pt-12 pb-20 bg-white">
+    <section id="about" className="pt-8 pb-16 bg-white">
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl md:text-5xl font-display font-bold text-primary mb-12 text-center">About</h2>
+          <h2 className="text-4xl md:text-5xl font-display font-bold text-primary mb-8 text-center">About</h2>
           
           <div className="grid lg:grid-cols-5 gap-12 items-start">
             {/* Biography Image - Left Side - Larger */}

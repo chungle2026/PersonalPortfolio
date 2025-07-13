@@ -23,7 +23,7 @@ export default function Navigation() {
   ];
 
   return (
-    <header className={`fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-border transition-shadow duration-200 ${scrolled ? 'shadow-lg' : ''}`}>
+    <header className={`fixed top-0 left-0 right-0 z-50 bg-amber-50/95 backdrop-blur-sm border-b border-amber-100 transition-shadow duration-200 ${scrolled ? 'shadow-lg' : ''}`}>
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="text-2xl font-display font-semibold text-primary">

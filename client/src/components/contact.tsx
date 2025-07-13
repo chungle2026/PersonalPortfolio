@@ -53,9 +53,9 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="py-20 bg-white">
+    <section id="contact" className="py-16 bg-white">
       <div className="container mx-auto px-6">
-        <h2 className="text-4xl md:text-5xl font-display font-bold text-primary mb-12 text-center">Contact</h2>
+        <h2 className="text-4xl md:text-5xl font-display font-bold text-primary mb-8 text-center">Contact</h2>
         
         <div className="max-w-6xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-start">
