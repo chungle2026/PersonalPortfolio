@@ -1,9 +1,10 @@
 export default function About() {
   return (
-    <section id="about" className="py-20 bg-white">
-      <div className="container mx-auto px-6">
+    <section id="about" className="py-20 bg-gradient-to-b from-white to-accent/5 relative">
+      <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMjAiIGN5PSIyMCIgcj0iMSIgZmlsbD0iIzAwMCIgZmlsbC1vcGFjaXR5PSIwLjAzIi8+Cjwvc3ZnPg==')] opacity-30"></div>
+      <div className="container mx-auto px-6 relative">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl md:text-5xl font-display font-bold text-primary mb-12 text-center">About</h2>
+          <h2 className="text-4xl md:text-5xl font-display font-bold gradient-text mb-12 text-center">About</h2>
           
           <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
             <p className="text-xl mb-8">
@@ -11,21 +12,21 @@ export default function About() {
             </p>
             
             <div className="grid md:grid-cols-2 gap-8 mb-12">
-              <div className="bg-gray-50 p-8 rounded-xl">
-                <h3 className="text-2xl font-display font-semibold text-primary mb-4">Education</h3>
+              <div className="bg-gradient-to-br from-white to-accent/10 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 border border-accent/20">
+                <h3 className="text-2xl font-display font-semibold gradient-text mb-4">Education</h3>
                 <ul className="space-y-3 text-gray-700">
-                  <li>• <strong>Doctor of Musical Arts</strong> - The Juilliard School</li>
-                  <li>• <strong>Master of Music</strong> - New England Conservatory</li>
-                  <li>• <strong>Bachelor of Music</strong> - Curtis Institute of Music</li>
+                  <li className="flex items-start"><span className="text-accent mr-3">•</span><strong>Doctor of Musical Arts</strong> - The Juilliard School</li>
+                  <li className="flex items-start"><span className="text-accent mr-3">•</span><strong>Master of Music</strong> - New England Conservatory</li>
+                  <li className="flex items-start"><span className="text-accent mr-3">•</span><strong>Bachelor of Music</strong> - Curtis Institute of Music</li>
                 </ul>
               </div>
               
-              <div className="bg-gray-50 p-8 rounded-xl">
-                <h3 className="text-2xl font-display font-semibold text-primary mb-4">Awards</h3>
+              <div className="bg-gradient-to-br from-white to-secondary/10 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 border border-secondary/20">
+                <h3 className="text-2xl font-display font-semibold gradient-text mb-4">Awards</h3>
                 <ul className="space-y-3 text-gray-700">
-                  <li>• <strong>2023</strong> - Pulitzer Prize for Music</li>
-                  <li>• <strong>2022</strong> - Grammy Award for Best Classical Composition</li>
-                  <li>• <strong>2021</strong> - American Academy of Arts and Letters Award</li>
+                  <li className="flex items-start"><span className="text-secondary mr-3">•</span><strong>2023</strong> - Pulitzer Prize for Music</li>
+                  <li className="flex items-start"><span className="text-secondary mr-3">•</span><strong>2022</strong> - Grammy Award for Best Classical Composition</li>
+                  <li className="flex items-start"><span className="text-secondary mr-3">•</span><strong>2021</strong> - American Academy of Arts and Letters Award</li>
                 </ul>
               </div>
             </div>
