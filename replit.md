@@ -10,6 +10,8 @@ Preferred communication style: Simple, everyday language.
 Font preferences: Formal, classical typography with serif fonts (Cormorant Garamond for headings, Crimson Text for body text)
 Website layout: White background, vertical scrolling for mobile, top navigation tabs for desktop
 No upcoming performances/concerts section needed
+Photo credits: Hadixos for hero image, MR. GUMBATRON™ for About and Artist Statement photos
+Social media optimization: Open Graph tags configured for WhatsApp/Facebook sharing with Steinway piano preview image
 
 ## System Architecture
 
