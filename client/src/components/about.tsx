@@ -1,5 +1,5 @@
 import biographyImage from "@assets/biography-updated.jpg";
-import personalPhoto from "@assets/score_by_door_v2.jpg";
+import personalPhoto from "@assets/Score by Door_V2_editedFOTOR_1752415188491.jpg";
 import quotesImage from "@assets/quotes.jpg";
 
 export default function About() {
@@ -25,9 +25,6 @@ export default function About() {
                 src={personalPhoto}
                 alt="Lewis Chung"
                 className="rounded-xl shadow-lg w-full h-auto object-cover"
-                style={{
-                  filter: 'brightness(1.18) contrast(0.9) blur(0.4px) saturate(1.12) sepia(0.05) hue-rotate(5deg)'
-                }}
               />
               <p className="text-xs text-gray-500 mt-2 text-center">
                 Photo credit: MR. GUMBATRON<sup>TM</sup>
