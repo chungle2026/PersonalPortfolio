@@ -11,7 +11,7 @@ export default function About() {
           
           <div className="grid lg:grid-cols-5 gap-12 items-start">
             {/* Biography Image - Left Side - Larger */}
-            <div className="lg:col-span-3 lg:order-1">
+            <div className="lg:col-span-3 lg:order-1 flex flex-col">
               <img
                 src={biographyImage}
                 alt="Lewis Chung Biography"

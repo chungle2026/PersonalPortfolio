@@ -12,7 +12,7 @@ export default function ArtistStatement() {
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-5 gap-8 items-start">
             {/* Artist Statement Text Image - Larger */}
-            <div className="lg:col-span-3">
+            <div className="lg:col-span-3 flex flex-col">
               <img
                 src={artistStatementImage}
                 alt="Artist Statement"
