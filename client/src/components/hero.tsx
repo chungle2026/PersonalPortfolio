@@ -22,7 +22,7 @@ export default function Hero() {
               <Button asChild className="bg-white text-black hover:bg-gray-100 shadow-lg">
                 <a href="#media">Listen to Music</a>
               </Button>
-              <Button asChild className="bg-yellow-600 text-white hover:bg-yellow-700 shadow-lg">
+              <Button asChild className="bg-gray-600 text-white hover:bg-gray-700 shadow-lg">
                 <a href="#contact">Get in Touch</a>
               </Button>
             </div>
