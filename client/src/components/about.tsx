@@ -1,4 +1,4 @@
-import biographyImage from "@assets/biography-new.jpg";
+import biographyImage from "@assets/biography-updated.jpg";
 import personalPhoto from "@assets/score_by_door_v2.jpg";
 import quotesImage from "@assets/quotes.jpg";
 
