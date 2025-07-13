@@ -52,13 +52,9 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="py-20 bg-gradient-to-b from-secondary/5 to-white relative overflow-hidden">
-      <div className="absolute inset-0">
-        <div className="absolute top-1/3 left-1/3 w-32 h-32 bg-accent/20 rounded-full blur-2xl floating"></div>
-        <div className="absolute bottom-1/3 right-1/3 w-24 h-24 bg-secondary/20 rounded-full blur-2xl floating" style={{animationDelay: '2s'}}></div>
-      </div>
-      <div className="container mx-auto px-6 relative">
-        <h2 className="text-4xl md:text-5xl font-display font-bold gradient-text mb-12 text-center">Contact</h2>
+    <section id="contact" className="py-20 bg-white">
+      <div className="container mx-auto px-6">
+        <h2 className="text-4xl md:text-5xl font-display font-bold text-primary mb-12 text-center">Contact</h2>
         
         <div className="max-w-4xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12">
@@ -93,7 +89,7 @@ export default function Contact() {
               </div>
             </div>
             
-            <div className="bg-gradient-to-br from-white to-accent/5 p-8 rounded-2xl shadow-lg border border-accent/20">
+            <div>
               <Form {...form}>
                 <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
                   <FormField
@@ -101,9 +97,9 @@ export default function Contact() {
                     name="name"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel className="text-primary font-serif">Name</FormLabel>
+                        <FormLabel>Name</FormLabel>
                         <FormControl>
-                          <Input placeholder="Your full name" {...field} className="rounded-xl border-accent/30 focus:border-accent focus:ring-accent/20" />
+                          <Input placeholder="Your full name" {...field} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -115,9 +111,9 @@ export default function Contact() {
                     name="email"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel className="text-primary font-serif">Email</FormLabel>
+                        <FormLabel>Email</FormLabel>
                         <FormControl>
-                          <Input type="email" placeholder="your@email.com" {...field} className="rounded-xl border-accent/30 focus:border-accent focus:ring-accent/20" />
+                          <Input type="email" placeholder="your@email.com" {...field} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -129,10 +125,10 @@ export default function Contact() {
                     name="subject"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel className="text-primary font-serif">Subject</FormLabel>
+                        <FormLabel>Subject</FormLabel>
                         <Select onValueChange={field.onChange} defaultValue={field.value}>
                           <FormControl>
-                            <SelectTrigger className="rounded-xl border-accent/30 focus:border-accent focus:ring-accent/20">
+                            <SelectTrigger>
                               <SelectValue placeholder="Select a subject" />
                             </SelectTrigger>
                           </FormControl>
@@ -153,13 +149,12 @@ export default function Contact() {
                     name="message"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel className="text-primary font-serif">Message</FormLabel>
+                        <FormLabel>Message</FormLabel>
                         <FormControl>
                           <Textarea
                             placeholder="Your message here..."
                             rows={5}
                             {...field}
-                            className="rounded-xl border-accent/30 focus:border-accent focus:ring-accent/20"
                           />
                         </FormControl>
                         <FormMessage />
@@ -169,7 +164,7 @@ export default function Contact() {
                   
                   <Button 
                     type="submit" 
-                    className="w-full bg-gradient-to-r from-primary to-secondary hover:from-secondary hover:to-accent text-white shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 glow rounded-xl"
+                    className="w-full bg-primary hover:bg-secondary"
                     disabled={contactMutation.isPending}
                   >
                     {contactMutation.isPending ? "Sending..." : "Send Message"}

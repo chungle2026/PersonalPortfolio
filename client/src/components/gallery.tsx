@@ -32,28 +32,20 @@ export default function Gallery() {
   ];
 
   return (
-    <section id="gallery" className="py-20 bg-gradient-to-b from-white to-secondary/5 relative overflow-hidden">
-      <div className="absolute inset-0">
-        <div className="absolute top-1/4 right-1/4 w-40 h-40 bg-accent/10 rounded-full blur-3xl floating"></div>
-        <div className="absolute bottom-1/4 left-1/4 w-60 h-60 bg-secondary/10 rounded-full blur-3xl floating" style={{animationDelay: '4s'}}></div>
-      </div>
-      <div className="container mx-auto px-6 relative">
-        <h2 className="text-4xl md:text-5xl font-display font-bold gradient-text mb-12 text-center">Gallery</h2>
+    <section id="gallery" className="py-20 bg-gray-50">
+      <div className="container mx-auto px-6">
+        <h2 className="text-4xl md:text-5xl font-display font-bold text-primary mb-12 text-center">Gallery</h2>
         
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {images.map((image, index) => (
-              <div key={index} className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:scale-105">
-                <img
-                  src={image.src}
-                  alt={image.alt}
-                  className="w-full h-64 object-cover cursor-pointer group-hover:scale-110 transition-transform duration-700"
-                  onClick={() => setSelectedImage(image.src)}
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
-                  <p className="text-white p-4 font-serif">{image.alt}</p>
-                </div>
-              </div>
+              <img
+                key={index}
+                src={image.src}
+                alt={image.alt}
+                className="rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 w-full h-64 object-cover cursor-pointer"
+                onClick={() => setSelectedImage(image.src)}
+              />
             ))}
           </div>
         </div>

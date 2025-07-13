@@ -17,16 +17,17 @@ export default function Navigation() {
   const navItems = [
     { href: "#home", label: "Home" },
     { href: "#about", label: "About" },
+    { href: "#performances", label: "Performances" },
     { href: "#media", label: "Media" },
     { href: "#gallery", label: "Gallery" },
     { href: "#contact", label: "Contact" }
   ];
 
   return (
-    <header className={`fixed top-0 left-0 right-0 z-50 glass-effect backdrop-blur-lg border-b border-border transition-all duration-300 ${scrolled ? 'shadow-2xl shadow-accent/20' : ''}`}>
+    <header className={`fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-border transition-shadow duration-200 ${scrolled ? 'shadow-lg' : ''}`}>
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="text-2xl font-display font-bold gradient-text">
+          <div className="text-2xl font-display font-semibold text-primary">
             Alexander Hartwell
           </div>
           

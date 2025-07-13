@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a full-stack web application built with React (frontend) and Express.js (backend) that creates a professional portfolio website for a classical composer and pianist named Alexander Hartwell. The application features a modern, elegant design with sections for about information, media gallery, photo gallery, and a contact form. The design has been enhanced with snazzy visual effects including gradient backgrounds, floating animations, glass effects, and enhanced interactivity.
+This is a full-stack web application built with React (frontend) and Express.js (backend) that creates a professional portfolio website for a classical composer and pianist named Alexander Hartwell. The application features a modern, elegant design with sections for about information, upcoming performances, media gallery, and a contact form.
 
 ## User Preferences
 
@@ -34,12 +34,13 @@ Preferred communication style: Simple, everyday language.
 ## Key Components
 
 ### Frontend Components
-- **Navigation**: Fixed header with glass effect and smooth scrolling navigation
-- **Hero Section**: Main landing area with composer introduction and floating background animations
-- **About Section**: Biography, education, and awards information with gradient card effects
-- **Media**: Embedded YouTube videos with enhanced styling and hover effects
-- **Gallery**: Photo gallery with lightbox functionality and overlay effects
-- **Contact Form**: Validated contact form with server submission and enhanced styling
+- **Navigation**: Fixed header with smooth scrolling navigation
+- **Hero Section**: Main landing area with composer introduction
+- **About Section**: Biography, education, and awards information
+- **Performances**: Upcoming concerts and events listing
+- **Media**: Embedded YouTube videos and audio content
+- **Gallery**: Photo gallery with lightbox functionality
+- **Contact Form**: Validated contact form with server submission
 
 ### Backend Components
 - **API Routes**: RESTful endpoints for contact form submission
