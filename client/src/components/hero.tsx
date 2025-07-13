@@ -11,10 +11,7 @@ export default function Hero() {
               <span className="text-secondary">Chung</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 mb-8 font-serif italic">
-              Classical Composer • Concert Pianist • Educator
-            </p>
-            <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-              Award-winning composer and pianist bridging classical tradition with contemporary innovation. Currently Artist-in-Residence at the Metropolitan Conservatory.
+              Composer • Pianist
             </p>
             <div className="flex flex-wrap gap-4">
               <Button asChild className="bg-primary hover:bg-secondary">
