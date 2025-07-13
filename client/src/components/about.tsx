@@ -20,12 +20,15 @@ export default function About() {
             </div>
             
             {/* Personal Photo - Right Side - Smaller */}
-            <div className="lg:col-span-2 lg:order-2 flex justify-center">
+            <div className="lg:col-span-2 lg:order-2 flex flex-col justify-center">
               <img
                 src={personalPhoto}
                 alt="Lewis Chung"
                 className="rounded-xl shadow-lg w-full h-auto object-cover"
               />
+              <p className="text-xs text-gray-500 mt-2 text-center">
+                Photo credit: MR. GUMBATRON<sup>TM</sup>
+              </p>
             </div>
           </div>
           
