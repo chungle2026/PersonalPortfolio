@@ -4,12 +4,16 @@ import { QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import Home from "@/pages/home";
+import CmsLogin from "@/pages/cms-login";
+import CmsPanel from "@/pages/cms";
 import NotFound from "@/pages/not-found";
 
 function Router() {
   return (
     <Switch>
       <Route path="/" component={Home} />
+      <Route path="/cms/login" component={CmsLogin} />
+      <Route path="/cms" component={CmsPanel} />
       <Route component={NotFound} />
     </Switch>
   );

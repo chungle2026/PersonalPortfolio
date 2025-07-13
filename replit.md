@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a full-stack web application built with React (frontend) and Express.js (backend) that creates a professional portfolio website for a classical composer and pianist named Lewis Chung. The application features a modern, elegant design with sections for about information, media gallery, photo gallery, and a contact form.
+This is a full-stack web application built with React (frontend) and Express.js (backend) that creates a professional portfolio website for a classical composer and pianist named Lewis Chung. The application features a modern, elegant design with sections for about information, media gallery, photo gallery, and a contact form. The system now includes a password-protected CMS (Content Management System) that allows for easy content updates without code changes.
 
 ## User Preferences
 
@@ -32,6 +32,8 @@ No upcoming performances/concerts section needed
 
 ### Database Schema
 - **Contact Submissions Table**: Stores form submissions with fields for name, email, subject, message, and timestamp
+- **CMS Content Table**: Stores editable content sections with fields for section, title, content, imageUrl, and active status
+- **CMS Authentication Table**: Stores CMS user credentials with username, password hash, and active status
 - **Schema Definition**: Located in `shared/schema.ts` using Drizzle ORM with Zod validation
 
 ## Key Components
@@ -44,10 +46,13 @@ No upcoming performances/concerts section needed
 - **Media**: Embedded YouTube videos and audio content
 - **Gallery**: Photo gallery with lightbox functionality
 - **Contact Form**: Validated contact form with server submission
+- **CMS Login**: Password-protected login page for content management
+- **CMS Panel**: Content management interface for updating website sections
 
 ### Backend Components
-- **API Routes**: RESTful endpoints for contact form submission
-- **Storage Layer**: Abstracted storage interface with in-memory fallback
+- **API Routes**: RESTful endpoints for contact form submission and CMS operations
+- **Storage Layer**: Database-backed storage interface using PostgreSQL and Drizzle ORM
+- **CMS Authentication**: Session-based authentication system for CMS access
 - **Error Handling**: Centralized error handling middleware
 - **Request Logging**: Custom logging middleware for API requests
 
@@ -66,8 +71,18 @@ No upcoming performances/concerts section needed
 6. Success/error response returned to client
 7. Toast notification displayed to user
 
+### CMS Content Management
+1. Admin logs into CMS at `/cms/login` with credentials
+2. Session token stored in localStorage for authenticated requests
+3. CMS panel loads existing content from database
+4. Admin can create, update, or delete content sections
+5. All CMS operations require session authentication
+6. Content changes are immediately reflected in database
+7. Public website can display content from CMS database
+
 ### Content Display
-- Static content rendered from component data
+- Dynamic content loaded from CMS database for editable sections
+- Static content rendered from component data for fixed elements
 - Media content embedded from external sources (YouTube, Unsplash)
 - Gallery images served from CDN with responsive sizing
 
@@ -114,3 +129,22 @@ No upcoming performances/concerts section needed
 ```
 
 The application follows a monorepo structure with clear separation between frontend, backend, and shared code. The build process creates a single deployable package that serves both the static frontend and API backend from the same Express server.
+
+## CMS System
+
+### Authentication
+- **Default Credentials**: Username: `admin`, Password: `admin123`
+- **Access URL**: `/cms/login`
+- **Session Management**: 24-hour session tokens stored in localStorage
+
+### Content Management
+- **Editable Sections**: Hero, About, Biography, Media, Gallery, Contact
+- **Content Types**: Title, body text, image URLs
+- **Operations**: Create, Read, Update, Delete content sections
+- **Real-time Updates**: Changes immediately reflected on public website
+
+### Security Features
+- **Password Hashing**: bcrypt with salt rounds for secure password storage
+- **Session Validation**: Server-side session management with expiration
+- **Input Validation**: Zod schema validation for all CMS operations
+- **Access Control**: Authentication required for all CMS operations
