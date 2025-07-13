@@ -3,7 +3,6 @@ import Navigation from "@/components/navigation";
 import Hero from "@/components/hero";
 import About from "@/components/about";
 import Media from "@/components/media";
-import Gallery from "@/components/gallery";
 import Contact from "@/components/contact";
 
 export default function Home() {
@@ -37,7 +36,6 @@ export default function Home() {
         <Hero />
         <About />
         <Media />
-        <Gallery />
         <Contact />
       </main>
       <footer className="bg-primary text-primary-foreground py-12">
@@ -73,14 +71,6 @@ export default function Home() {
                     className="hover:text-accent transition-colors duration-200"
                   >
                     Media
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#gallery"
-                    className="hover:text-accent transition-colors duration-200"
-                  >
-                    Gallery
                   </a>
                 </li>
                 <li>
