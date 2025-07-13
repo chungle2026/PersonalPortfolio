@@ -9,9 +9,9 @@ export default function About() {
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-display font-bold text-primary mb-12 text-center">About</h2>
           
-          <div className="grid lg:grid-cols-2 gap-12 items-start">
-            {/* Biography Image - Left Side */}
-            <div className="lg:order-1">
+          <div className="grid lg:grid-cols-5 gap-12 items-start">
+            {/* Biography Image - Left Side - Larger */}
+            <div className="lg:col-span-3 lg:order-1">
               <img
                 src={biographyImage}
                 alt="Lewis Chung Biography"
@@ -19,12 +19,12 @@ export default function About() {
               />
             </div>
             
-            {/* Personal Photo - Right Side */}
-            <div className="lg:order-2 flex justify-center">
+            {/* Personal Photo - Right Side - Smaller */}
+            <div className="lg:col-span-2 lg:order-2 flex justify-center">
               <img
                 src={personalPhoto}
                 alt="Lewis Chung"
-                className="rounded-xl shadow-lg w-3/4 h-auto object-cover"
+                className="rounded-xl shadow-lg w-full h-auto object-cover"
               />
             </div>
           </div>

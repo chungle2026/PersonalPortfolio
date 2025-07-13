@@ -10,9 +10,9 @@ export default function ArtistStatement() {
         </h2>
         
         <div className="max-w-6xl mx-auto">
-          <div className="grid lg:grid-cols-3 gap-8 items-start">
+          <div className="grid lg:grid-cols-5 gap-8 items-start">
             {/* Artist Statement Text Image - Larger */}
-            <div className="lg:col-span-2 bg-white rounded-xl p-6 shadow-lg">
+            <div className="lg:col-span-3 bg-white rounded-xl p-6 shadow-lg">
               <img
                 src={artistStatementImage}
                 alt="Artist Statement"
@@ -21,7 +21,7 @@ export default function ArtistStatement() {
             </div>
             
             {/* Artist Photo - Smaller */}
-            <div className="lg:col-span-1 bg-white rounded-xl p-6 shadow-lg flex justify-center overflow-hidden">
+            <div className="lg:col-span-2 bg-white rounded-xl p-6 shadow-lg flex justify-center overflow-hidden">
               <img
                 src={artistPhotoImage}
                 alt="Lewis Chung - Composer and Pianist"
