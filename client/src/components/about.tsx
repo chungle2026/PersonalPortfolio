@@ -25,6 +25,9 @@ export default function About() {
                 src={personalPhoto}
                 alt="Lewis Chung"
                 className="rounded-xl shadow-lg w-full h-auto object-cover"
+                style={{
+                  filter: 'brightness(1.15) contrast(1.1) blur(0.3px) saturate(1.05)'
+                }}
               />
               <p className="text-xs text-gray-500 mt-2 text-center">
                 Photo credit: MR. GUMBATRON<sup>TM</sup>
