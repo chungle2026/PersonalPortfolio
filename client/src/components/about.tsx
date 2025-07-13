@@ -34,7 +34,7 @@ export default function About() {
             <img
               src={quotesImage}
               alt="Press quotes about Lewis Chung"
-              className="rounded-xl shadow-lg w-2/3 h-auto object-cover"
+              className="rounded-xl shadow-lg w-full md:w-2/3 h-auto object-cover"
             />
           </div>
         </div>

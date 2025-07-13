@@ -2,11 +2,11 @@ import { Button } from "@/components/ui/button";
 
 export default function Hero() {
   return (
-    <section id="home" className="pt-16 pb-6 bg-gradient-to-br from-white to-gray-50">
+    <section id="home" className="pt-12 md:pt-16 pb-4 md:pb-6 bg-gradient-to-br from-white to-gray-50">
       <div className="container mx-auto px-6">
-        <div className="flex justify-center items-center min-h-[60vh]">
+        <div className="flex justify-center items-center min-h-[45vh] md:min-h-[60vh]">
           <div className="text-center max-w-2xl">
-            <h1 className="text-5xl md:text-6xl font-display font-bold text-primary mb-6 leading-tight">
+            <h1 className="text-5xl md:text-6xl font-display font-bold text-primary mb-4 md:mb-6 leading-tight">
               Lewis<br />
               <span className="text-secondary">Chung</span>
             </h1>
