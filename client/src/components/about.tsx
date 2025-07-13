@@ -7,7 +7,7 @@ export default function About() {
           
           <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
             <p className="text-xl mb-8">
-              Alexander Hartwell is a distinguished American composer and pianist whose works have been performed by leading orchestras worldwide. His compositions seamlessly blend classical tradition with modern sensibilities, creating deeply moving musical experiences that resonate with contemporary audiences.
+              Lewis Chung is a distinguished American composer and pianist whose works have been performed by leading orchestras worldwide. His compositions seamlessly blend classical tradition with modern sensibilities, creating deeply moving musical experiences that resonate with contemporary audiences.
             </p>
             
             <div className="grid md:grid-cols-2 gap-8 mb-12">
@@ -31,11 +31,11 @@ export default function About() {
             </div>
             
             <p className="text-lg mb-6">
-              His recent symphony "Echoes of Tomorrow" premiered with the New York Philharmonic to critical acclaim, with The New York Times describing it as "a masterful exploration of hope and resilience in our modern age." As a pianist, Hartwell has performed as soloist with major orchestras including the Boston Symphony Orchestra, Chicago Symphony Orchestra, and London Symphony Orchestra.
+              His recent symphony "Echoes of Tomorrow" premiered with the New York Philharmonic to critical acclaim, with The New York Times describing it as "a masterful exploration of hope and resilience in our modern age." As a pianist, Chung has performed as soloist with major orchestras including the Boston Symphony Orchestra, Chicago Symphony Orchestra, and London Symphony Orchestra.
             </p>
             
             <p className="text-lg">
-              Beyond performance and composition, Hartwell is deeply committed to music education. He currently serves as Artist-in-Residence at the Metropolitan Conservatory, where he mentors the next generation of classical musicians and composers. His pedagogical approach emphasizes both technical excellence and emotional authenticity in musical expression.
+              Beyond performance and composition, Chung is deeply committed to music education. He currently serves as Artist-in-Residence at the Metropolitan Conservatory, where he mentors the next generation of classical musicians and composers. His pedagogical approach emphasizes both technical excellence and emotional authenticity in musical expression.
             </p>
           </div>
         </div>

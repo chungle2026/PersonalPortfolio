@@ -2,11 +2,14 @@
 
 ## Overview
 
-This is a full-stack web application built with React (frontend) and Express.js (backend) that creates a professional portfolio website for a classical composer and pianist named Alexander Hartwell. The application features a modern, elegant design with sections for about information, upcoming performances, media gallery, and a contact form.
+This is a full-stack web application built with React (frontend) and Express.js (backend) that creates a professional portfolio website for a classical composer and pianist named Lewis Chung. The application features a modern, elegant design with sections for about information, media gallery, photo gallery, and a contact form.
 
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.
+Font preferences: Formal, classical typography with serif fonts (Cormorant Garamond for headings, Crimson Text for body text)
+Website layout: White background, vertical scrolling for mobile, top navigation tabs for desktop
+No upcoming performances/concerts section needed
 
 ## System Architecture
 

@@ -17,7 +17,6 @@ export default function Navigation() {
   const navItems = [
     { href: "#home", label: "Home" },
     { href: "#about", label: "About" },
-    { href: "#performances", label: "Performances" },
     { href: "#media", label: "Media" },
     { href: "#gallery", label: "Gallery" },
     { href: "#contact", label: "Contact" }
@@ -28,7 +27,7 @@ export default function Navigation() {
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="text-2xl font-display font-semibold text-primary">
-            Alexander Hartwell
+            Lewis Chung
           </div>
           
           {/* Desktop Navigation */}
