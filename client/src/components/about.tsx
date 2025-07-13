@@ -26,7 +26,7 @@ export default function About() {
                 alt="Lewis Chung"
                 className="rounded-xl shadow-lg w-full h-auto object-cover"
               />
-              <p className="text-xs text-gray-500 mt-2 text-center">
+              <p className="text-[10px] md:text-xs text-gray-500 mt-2 text-center">
                 Photo credit: MR. GUMBATRON<sup>TM</sup>
               </p>
             </div>

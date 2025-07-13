@@ -29,7 +29,7 @@ export default function ArtistStatement() {
                   className="w-full max-w-none scale-150 h-auto transform origin-center border-0"
                 />
               </div>
-              <p className="text-xs text-gray-500 mt-2 text-center">
+              <p className="text-[10px] md:text-xs text-gray-500 mt-2 text-center">
                 Photo credit: MR. GUMBATRON<sup>TM</sup>
               </p>
             </div>
