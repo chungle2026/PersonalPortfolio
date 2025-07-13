@@ -52,7 +52,7 @@ export default function About() {
           </div>
           
           {/* Quotes Section */}
-          <div className="mt-12 max-w-4xl mx-auto flex justify-center">
+          <div className="mt-16 md:mt-12 mb-4 md:mb-6 max-w-4xl mx-auto flex justify-center">
             <div className="w-full md:w-3/4 bg-white md:p-3 rounded-xl md:shadow-2xl md:shadow-black/20 transform md:hover:scale-105 transition-transform duration-300">
               <img
                 src={quotesImage}
