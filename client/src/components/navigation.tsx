@@ -18,6 +18,7 @@ export default function Navigation() {
     { href: "#home", label: "Home" },
     { href: "#about", label: "About" },
     { href: "#media", label: "Media" },
+    { href: "#artist-statement", label: "Artist Statement" },
     { href: "#contact", label: "Contact" }
   ];
 

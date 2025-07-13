@@ -40,10 +40,9 @@ No upcoming performances/concerts section needed
 - **Navigation**: Fixed header with smooth scrolling navigation
 - **Hero Section**: Main landing area with composer introduction
 - **About Section**: Biography, education, and awards information
-- **Performances**: Upcoming concerts and events listing
-- **Media**: Embedded YouTube videos and audio content
-- **Gallery**: Photo gallery with lightbox functionality
-- **Contact Form**: Validated contact form with server submission
+- **Media**: Embedded YouTube videos organized by musical categories
+- **Artist Statement**: Visual display of artist statement text and artist photo
+- **Contact Form**: Validated contact form with Gmail email integration
 
 ### Backend Components
 - **API Routes**: RESTful endpoints for contact form submission
@@ -62,14 +61,15 @@ No upcoming performances/concerts section needed
 2. Form data validated using Zod schema on client side
 3. POST request sent to `/api/contact` endpoint
 4. Server validates data using same shared schema
-5. Data stored in PostgreSQL database via Drizzle ORM
+5. Data stored in memory storage and email sent via Gmail
 6. Success/error response returned to client
 7. Toast notification displayed to user
 
 ### Content Display
 - Static content rendered from component data
-- Media content embedded from external sources (YouTube, Unsplash)
-- Gallery images served from CDN with responsive sizing
+- Media content embedded from YouTube videos organized by categories
+- Artist statement and photos displayed with responsive sizing
+- Social media links integrated (YouTube and Instagram)
 
 ## External Dependencies
 

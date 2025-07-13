@@ -3,6 +3,7 @@ import Navigation from "@/components/navigation";
 import Hero from "@/components/hero";
 import About from "@/components/about";
 import Media from "@/components/media";
+import ArtistStatement from "@/components/artist-statement";
 import Contact from "@/components/contact";
 
 export default function Home() {
@@ -36,6 +37,7 @@ export default function Home() {
         <Hero />
         <About />
         <Media />
+        <ArtistStatement />
         <Contact />
       </main>
       <footer className="bg-primary text-primary-foreground py-12">
@@ -71,6 +73,14 @@ export default function Home() {
                     className="hover:text-accent transition-colors duration-200"
                   >
                     Media
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#artist-statement"
+                    className="hover:text-accent transition-colors duration-200"
+                  >
+                    Artist Statement
                   </a>
                 </li>
                 <li>
