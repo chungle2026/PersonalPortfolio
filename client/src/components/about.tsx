@@ -1,3 +1,6 @@
+import biographyImage from "@assets/Biography JPG_1752384268010.jpg";
+import personalPhoto from "@assets/Score by Door_V2_1752384333596.JPG";
+
 export default function About() {
   return (
     <section id="about" className="py-20 bg-white">
@@ -9,7 +12,7 @@ export default function About() {
             {/* Biography Image */}
             <div className="order-1">
               <img
-                src="@assets/Biography JPG_1752384268010.jpg"
+                src={biographyImage}
                 alt="Lewis Chung Biography"
                 className="rounded-xl shadow-lg w-full h-auto object-cover"
               />
@@ -18,7 +21,7 @@ export default function About() {
             {/* Personal Photo */}
             <div className="order-2">
               <img
-                src="@assets/Score by Door_V2_1752384333596.JPG"
+                src={personalPhoto}
                 alt="Lewis Chung"
                 className="rounded-xl shadow-lg w-full h-auto object-cover"
               />
