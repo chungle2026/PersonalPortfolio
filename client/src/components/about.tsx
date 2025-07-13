@@ -23,7 +23,7 @@ export default function About() {
                     </p>
                     
                     <p className="text-gray-800 font-serif leading-relaxed text-sm md:text-base mb-4 text-justify">
-                      Recent engagements include a two pianos museum concert in Kuwait, featuring a Chopin Competition Laureate. The concert featured original anime-inspired music, hosted by the Kuwait National Council for Culture, Arts and Letters. He also collaborated with a leading digital artist, on an installation at Art Basel (Hong Kong). The work was highlighted in seven media outlets, including The Financial Times (UK), for its innovative integration of music, art and machine learning.
+                      Recent engagements include a two pianos museum concert in Kuwait, featuring a Chopin Competition Laureate. The concert featured original anime-inspired music, hosted by the Kuwait National Council for Culture, Arts and Letters. He also collaborated with a leading digital artist on an installation at Art Basel (Hong Kong). The work was highlighted in seven media outlets, including The Financial Times (UK), for its innovative integration of music, art and machine learning.
                     </p>
                     
                     <p className="text-gray-800 font-serif leading-relaxed text-sm md:text-base mb-4 text-justify">
