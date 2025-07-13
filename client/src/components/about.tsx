@@ -9,8 +9,8 @@ export default function About() {
           <h2 className="text-4xl md:text-5xl font-display font-bold text-primary mb-12 text-center">About</h2>
           
           <div className="grid lg:grid-cols-2 gap-12 items-start">
-            {/* Biography Image */}
-            <div className="order-1">
+            {/* Biography Image - Left Side */}
+            <div className="lg:order-1">
               <img
                 src={biographyImage}
                 alt="Lewis Chung Biography"
@@ -18,8 +18,8 @@ export default function About() {
               />
             </div>
             
-            {/* Personal Photo */}
-            <div className="order-2">
+            {/* Personal Photo - Right Side */}
+            <div className="lg:order-2">
               <img
                 src={personalPhoto}
                 alt="Lewis Chung"
