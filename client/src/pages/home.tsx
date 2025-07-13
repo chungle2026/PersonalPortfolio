@@ -90,8 +90,11 @@ export default function Home() {
               </h4>
               <div className="flex space-x-4">
                 <a
-                  href="#"
+                  href="https://www.youtube.com/@musiclew007"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-gray-300 hover:text-accent transition-colors duration-200"
+                  aria-label="YouTube"
                 >
                   <svg
                     className="w-6 h-6"
@@ -102,8 +105,11 @@ export default function Home() {
                   </svg>
                 </a>
                 <a
-                  href="#"
+                  href="https://www.instagram.com/lewischungmusic/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-gray-300 hover:text-accent transition-colors duration-200"
+                  aria-label="Instagram"
                 >
                   <svg
                     className="w-6 h-6"
