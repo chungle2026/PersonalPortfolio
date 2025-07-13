@@ -10,9 +10,6 @@ export default function Hero() {
               Lewis<br />
               <span className="text-secondary">Chung</span>
             </h1>
-            <p className="text-xl md:text-2xl text-gray-600 mb-8 font-serif italic">
-              Composer • Pianist
-            </p>
             <div className="flex flex-wrap gap-4">
               <Button asChild className="bg-primary hover:bg-secondary">
                 <a href="#media">Listen to Music</a>

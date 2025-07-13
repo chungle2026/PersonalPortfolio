@@ -27,7 +27,7 @@ export default function Navigation() {
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="text-2xl font-display font-semibold text-primary">
-            Lewis Chung
+            Composer • Pianist
           </div>
           
           {/* Desktop Navigation */}
