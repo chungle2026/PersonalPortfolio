@@ -30,11 +30,11 @@ export default function About() {
           </div>
           
           {/* Quotes Section */}
-          <div className="mt-16 max-w-4xl mx-auto">
+          <div className="mt-16 max-w-4xl mx-auto flex justify-center">
             <img
               src={quotesImage}
               alt="Press quotes about Lewis Chung"
-              className="rounded-xl shadow-lg w-full h-auto object-cover"
+              className="rounded-xl shadow-lg w-2/3 h-auto object-cover"
             />
           </div>
         </div>
