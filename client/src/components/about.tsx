@@ -19,11 +19,11 @@ export default function About() {
             </div>
             
             {/* Personal Photo - Right Side */}
-            <div className="lg:order-2">
+            <div className="lg:order-2 flex justify-center">
               <img
                 src={personalPhoto}
                 alt="Lewis Chung"
-                className="rounded-xl shadow-lg w-full h-auto object-cover"
+                className="rounded-xl shadow-lg w-3/4 h-auto object-cover"
               />
             </div>
           </div>
