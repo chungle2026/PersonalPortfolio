@@ -38,7 +38,7 @@ export default function Media() {
         <div className="max-w-6xl mx-auto space-y-16">
           {videoCategories.map((category, categoryIndex) => (
             <div key={categoryIndex}>
-              <h3 className="text-3xl font-display font-semibold text-primary mb-2 text-center">{category.title}</h3>
+              <h3 className="text-3xl font-sans font-semibold text-primary mb-2 text-left">{category.title}</h3>
               {category.title === "Cross-genre" && (
                 <p className="text-lg text-gray-600 mb-8 text-center">for example: film, art, Anime, machine-learning. Samples available upon request</p>
               )}
