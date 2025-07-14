@@ -40,7 +40,7 @@ export default function Media() {
             <div key={categoryIndex}>
               <h3 className="text-xl font-display font-semibold text-primary mb-2 text-left">{category.title}</h3>
               {category.title === "Cross-Genre" && (
-                <p className="text-lg text-gray-600 mb-8 text-center">for example: film, visual art, Anime, machine-learning . Samples available upon request. Also have experience in art-pairing curatorial work.</p>
+                <p className="text-lg text-gray-600 mb-8 text-center">for example: film, visual art, Anime and machine-learning . Samples available upon request. Also have experience in art-pairing curatorial work.</p>
               )}
               {category.title !== "Cross-Genre" && <div className="mb-8"></div>}
               <div className="grid lg:grid-cols-2 gap-8">
