@@ -22,7 +22,7 @@ export default function Media() {
       ]
     },
     {
-      title: "Cross-genre",
+      title: "Cross-Genre",
       videos: [
         { id: "gAgXwdihxjY", title: "Cross-genre Performance 1" },
         { id: "aBjkX0EnFMw", title: "Cross-genre Performance 2" }
@@ -39,10 +39,10 @@ export default function Media() {
           {videoCategories.map((category, categoryIndex) => (
             <div key={categoryIndex}>
               <h3 className="text-xl font-display font-semibold text-primary mb-2 text-left">{category.title}</h3>
-              {category.title === "Cross-genre" && (
-                <p className="text-lg text-gray-600 mb-8 text-center">for example: film, visual art, Anime, machine-learning and art-pairing curatorial work. Samples available upon request.</p>
+              {category.title === "Cross-Genre" && (
+                <p className="text-lg text-gray-600 mb-8 text-center">for example: film, visual art, Anime, machine-learning . Samples available upon request. Also have experience in art-pairing curatorial work.</p>
               )}
-              {category.title !== "Cross-genre" && <div className="mb-8"></div>}
+              {category.title !== "Cross-Genre" && <div className="mb-8"></div>}
               <div className="grid lg:grid-cols-2 gap-8">
                 {category.videos.map((video, videoIndex) => (
                   <div key={videoIndex} className="bg-gray-50 rounded-xl p-6">
