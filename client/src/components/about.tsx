@@ -31,7 +31,7 @@ export default function About() {
                     </p>
                     
                     <p className="text-gray-800 font-serif leading-relaxed text-sm md:text-base mb-0 text-justify">
-                      A graduate of the Wharton School at the University of Pennsylvania, he subsequently undertook Graduate studies in both composition and piano at the Lamont School of Music (Denver) with department chairs Sean Friar and Stephanie Cheng. Beginning piano at age 5 in Australia, his prior teachers were formerly faculty members of Sydney Conservatorium. Private teachers included Amy Sze (student of Nelita True), Joshua Tsai (student of Leon Fleisher) and Madeleine Lawrence (student of Neta Maughan).
+                      A graduate of the Wharton School at the University of Pennsylvania, he subsequently undertook Graduate studies in both composition and piano at the Lamont School of Music (Denver) with department chairs Sean Friar and Stephanie Cheng. Beginning piano at age 5 in Australia, his prior teachers were former faculty members of Sydney Conservatorium. Private teachers included Amy Sze (student of Nelita True), Joshua Tsai (student of Leon Fleisher) and Madeleine Lawrence (student of Neta Maughan).
                     </p>
                   </div>
                 </div>
