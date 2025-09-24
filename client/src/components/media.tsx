@@ -31,7 +31,7 @@ export default function Media() {
   ];
 
   return (
-    <section id="media" className="py-16 bg-white">
+    <section id="media" className="pt-8 pb-16 bg-white">
       <div className="container mx-auto px-6">
         <h2 className="text-3xl md:text-4xl font-display font-bold text-primary mb-8 text-center">Selected Performances</h2>
         
