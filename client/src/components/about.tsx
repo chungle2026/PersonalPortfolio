@@ -23,7 +23,7 @@ export default function About() {
                     </p>
                     
                     <p className="text-gray-800 font-serif leading-relaxed text-sm md:text-base mb-4 text-justify">
-                      Recent engagements include a two-piano museum concert in Kuwait, featuring Tony Yike Yang (Chopin Competition Laureate) and Faisal Al-Bahairi. The concert featured original anime-inspired music, hosted by the Kuwait National Council for Culture, Arts and Letters. He also collaborated with Henry Chu, a leading digital artist, on an installation at Art Basel (Hong Kong). The work was highlighted in seven media outlets, including The Financial Times (UK), for its innovative integration of music, art and machine learning.
+                      Recent engagements include a two-piano museum concert in Kuwait, featuring Tony Yike Yang (Chopin Competition Laureate) and Faisal Al-Bahairi. The concert featured original anime-inspired music, hosted by the Kuwait National Council for Culture, Arts and Letters. He also collaborated with Henry Chu, a leading digital artist, on an installation at Art Basel (Hong Kong) and West Bund (Shanghai). The work was highlighted in seven media outlets, including The Financial Times (UK), for its innovative integration of music, art and machine learning.
                     </p>
                     
                     <p className="text-gray-800 font-serif leading-relaxed text-sm md:text-base mb-4 text-justify">
