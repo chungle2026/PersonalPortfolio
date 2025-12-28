@@ -48,7 +48,7 @@ export default function Home() {
                 Lewis Chung
               </h3>
               <p className="text-gray-300 leading-relaxed">
-                Classical composer and pianist dedicated to creating meaningful
+                Multi-disciplinary composer and pianist dedicated to creating meaningful
                 musical experiences that bridge tradition and innovation.
               </p>
             </div>
