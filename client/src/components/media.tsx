@@ -48,7 +48,7 @@ export default function Media() {
                 {category.videos.map((video, videoIndex) => {
                   const isLastOdd = category.videos.length % 2 === 1 && videoIndex === category.videos.length - 1;
                   return (
-                    <div key={videoIndex} className={`bg-gray-50 rounded-xl p-6 ${isLastOdd ? 'lg:col-span-2 lg:max-w-[50%] lg:mx-auto' : ''}`}>
+                    <div key={videoIndex} className={`bg-gray-50 rounded-xl p-6 ${isLastOdd ? 'lg:col-span-2 lg:w-[calc(50%-1rem)] lg:mx-auto' : ''}`}>
                       <div className="aspect-video bg-gray-200 rounded-lg overflow-hidden">
                         <iframe
                           src={`https://www.youtube.com/embed/${video.id}`}
