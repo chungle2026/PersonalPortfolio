@@ -45,20 +45,23 @@ export default function Media() {
               )}
               {category.title !== "Cross-Genre" && <div className="mb-8"></div>}
               <div className="grid lg:grid-cols-2 gap-8">
-                {category.videos.map((video, videoIndex) => (
-                  <div key={videoIndex} className="bg-gray-50 rounded-xl p-6">
-                    <div className="aspect-video bg-gray-200 rounded-lg overflow-hidden">
-                      <iframe
-                        src={`https://www.youtube.com/embed/${video.id}`}
-                        title={video.title}
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen
-                        className="w-full h-full"
-                      />
+                {category.videos.map((video, videoIndex) => {
+                  const isLastOdd = category.videos.length % 2 === 1 && videoIndex === category.videos.length - 1;
+                  return (
+                    <div key={videoIndex} className={`bg-gray-50 rounded-xl p-6 ${isLastOdd ? 'lg:col-span-2 lg:max-w-[50%] lg:mx-auto' : ''}`}>
+                      <div className="aspect-video bg-gray-200 rounded-lg overflow-hidden">
+                        <iframe
+                          src={`https://www.youtube.com/embed/${video.id}`}
+                          title={video.title}
+                          frameBorder="0"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowFullScreen
+                          className="w-full h-full"
+                        />
+                      </div>
                     </div>
-                  </div>
-                ))}
+                  );
+                })}
               </div>
             </div>
           ))}
