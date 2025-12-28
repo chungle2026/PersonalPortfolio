@@ -11,7 +11,8 @@ export default function Media() {
       title: "Solo",
       videos: [
         { id: "SS_QBucQjK4", title: "Solo Performance 1" },
-        { id: "7xUH7fYg-Xk", title: "Solo Performance 2" }
+        { id: "7xUH7fYg-Xk", title: "Solo Performance 2" },
+        { id: "2DqolJxWYOo", title: "Solo Performance 3" }
       ]
     },
     {
