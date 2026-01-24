@@ -18,7 +18,7 @@ export default function Media() {
     {
       title: "Chamber",
       videos: [
-        { id: "8Ze-bHzVvzE", title: "Chamber Performance 1" },
+        { id: "_oEiTMmr_Vs", title: "Chamber Performance 1" },
         { id: "Ep5D1TufQ_8", title: "Chamber Performance 2" }
       ]
     },
