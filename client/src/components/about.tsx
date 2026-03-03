@@ -19,7 +19,7 @@ export default function About() {
                     </p>
                     
                     <p className="text-gray-800 font-serif leading-relaxed text-sm md:text-base mb-4 text-justify">
-                      Notable collaborations include an orchestral composition inspired by Cubist art, performed by the Hong Kong Philharmonic Orchestra. He premiered an orchestral work in Brazil with the Orquestra Sinfônica da Unicamp, and also a work with the globally acclaimed Mivos Quartet at the Universität MDW (Vienna). A solo violin piece was recorded by Juliette Kang, first associate concertmaster of the Philadelphia Orchestra.
+                      Notable collaborations include an orchestral composition inspired by Cubist art, performed by the Hong Kong Philharmonic Orchestra. Other premieres include an orchestral work in Brazil with the Orquestra Sinfônica da Unicamp, and a work with the globally acclaimed Mivos Quartet at the Universität MDW (Vienna). A solo violin piece was recorded by Juliette Kang, first associate concertmaster of the Philadelphia Orchestra.
                     </p>
                     
                     <p className="text-gray-800 font-serif leading-relaxed text-sm md:text-base mb-4 text-justify">
@@ -27,7 +27,7 @@ export default function About() {
                     </p>
                     
                     <p className="text-gray-800 font-serif leading-relaxed text-sm md:text-base mb-4 text-justify">
-                      Confirmed projects this season include a piano quartet performed at the Manhattan School of Music by Jenny Tsang; an immersive piano installation with digital artist Henry Chu; a visual arts collaboration with artist Sophie Cheung Hing Yee and cellist Ian Mok; and works for piano and violin to be played around Cleveland by Joyce Yu and Minchae Kim.
+                      Confirmed projects this season include a piano quartet performed at the Manhattan School of Music by Jenny Tsang and other students of Juilliard and MSM; a solo piece to be premiered at SUNY Stony Brook by doctoral candidate Chloe Chung; immersive music installations at Macau Contemporary Art Center and Hong Kong Design Center; a visual arts-music collaboration with artist Sophie Cheung Hing Yee and cellist Ian Mok; and works for piano and violin to be played around Cleveland by Joyce Yu and Minchae Kim.
                     </p>
                     
                     <p className="text-gray-800 font-serif leading-relaxed text-sm md:text-base mb-4 text-justify">
@@ -35,7 +35,7 @@ export default function About() {
                     </p>
                     
                     <p className="text-gray-800 font-serif leading-relaxed text-sm md:text-base mb-0 text-justify">
-                      A graduate of the Wharton School at the University of Pennsylvania, he subsequently undertook graduate studies in both composition and piano at the Lamont School of Music (Denver) under department chairs Sean Friar and Stephanie Cheng. Beginning piano at age 5 in Australia, his prior teachers were faculty members of Sydney Conservatorium. Private teachers included Amy Sze (student of Nelita True), Joshua Tsai (student of Leon Fleisher) and Madeleine Lawrence (student of Neta Maughan).
+                      A graduate of the University of Pennsylvania, he also undertook graduate studies in both composition and piano at the Lamont School of Music (Denver) under department chairs Sean Friar and Stephanie Cheng. Beginning piano at age 5 in Australia, his prior teachers were faculty members of Sydney Conservatorium. Private teachers included Amy Sze (student of Nelita True), Joshua Tsai (student of Leon Fleisher) and Madeleine Lawrence (student of Neta Maughan).
                     </p>
                   </div>
                 </div>
