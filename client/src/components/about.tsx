@@ -23,7 +23,7 @@ export default function About() {
                     </p>
                     
                     <p className="text-gray-800 font-serif leading-relaxed text-sm md:text-base mb-4 text-left md:text-justify">
-                      In recent years, his work has been premiered at venues including the Hong Cultural Centre, the Kimmel Centre Cultural Campus, Universität MDW (Vienna), Greenfield Hall (Manhattan School of Music), Shangyin Opera House (Shanghai), the Mütter Museum (Philadelphia), Trinity Cathedral (Cleveland), Yarmouk Cultural Center (Kuwait), Macau Contemporary Art Center and MGM Resort (Zhuhai).
+                      In recent years, his work has been premiered at venues including the Hong Kong Cultural Centre, the Kimmel Centre Cultural Campus, Universität MDW (Vienna), Greenfield Hall (Manhattan School of Music), Shangyin Opera House (Shanghai), the Mütter Museum (Philadelphia), Trinity Cathedral (Cleveland), Yarmouk Cultural Center (Kuwait), Macau Contemporary Art Center and MGM Resort (Zhuhai).
                     </p>
 
                     <p className="text-gray-800 font-serif leading-relaxed text-sm md:text-base mb-4 text-left md:text-justify">
