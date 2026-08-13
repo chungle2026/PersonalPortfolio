@@ -19,11 +19,15 @@ export default function About() {
                     </p>
                     
                     <p className="text-gray-800 font-serif leading-relaxed text-sm md:text-base mb-4 text-left md:text-justify">
-                      Notable collaborators include the Hong Kong Philharmonic Orchestra, Orquestra Sinfônica da Unicamp (Brazil), the Mivos Quartet and Juliette Kang (first associate concertmaster of the Philadelphia Orchestra). Recent engagements include a two-pianos museum concert in Kuwait, featuring Tony Yike Yang (Chopin Competition Laureate) and Faisal Al-Bahairi, hosted by the Kuwait National Council for Culture, Arts and Letters. This summer saw two premieres in the Shangyin Opera House (Shanghai): a solo baroque cello piece performed by Denise Fan in collaboration with Shanghai Conservatory and a CD recording for Soundbox Ventures featuring Sam Boutris (clarinet) and Baron Fenwick (piano).
+                      Notable collaborators include the Hong Kong Philharmonic Orchestra, Orquestra Sinfônica da Unicamp (Brazil), the Mivos Quartet, Juliette Kang (first associate concertmaster of the Philadelphia Orchestra) and Tony Yike Yang (Chopin Competition Laureate). This summer saw two premieres in the Shangyin Opera House (Shanghai): a solo baroque cello piece performed by Denise Fan in collaboration with Shanghai Conservatory and a CD recording for Soundbox Ventures featuring Sam Boutris (clarinet) and Baron Fenwick (piano).
                     </p>
                     
                     <p className="text-gray-800 font-serif leading-relaxed text-sm md:text-base mb-4 text-left md:text-justify">
-                      In recent years, his work has been premiered at venues including the Hong Cultural Centre, the Kimmel Centre Cultural Campus, Universität MDW (Vienna), Greenfield Hall (Manhattan School of Music), Shangyin Opera House (Shanghai), the Mütter Museum (Philadelphia), Trinity Cathedral (Cleveland), Macau Contemporary Art Center, Soho House and MGM Resort (Zhuhai). His music and comments on the connection between AI and human artistry have been featured in publications such as The Financial Times (UK), Madame Figaro, the South China Morning Post, Tatler and Sing Tao Daily.
+                      In recent years, his work has been premiered at venues including the Hong Cultural Centre, the Kimmel Centre Cultural Campus, Universität MDW (Vienna), Greenfield Hall (Manhattan School of Music), Shangyin Opera House (Shanghai), the Mütter Museum (Philadelphia), Trinity Cathedral (Cleveland), Yarmouk Cultural Center (Kuwait), Macau Contemporary Art Center and MGM Resort (Zhuhai).
+                    </p>
+
+                    <p className="text-gray-800 font-serif leading-relaxed text-sm md:text-base mb-4 text-left md:text-justify">
+                      His music and comments on the connection between AI and human artistry have been featured in publications such as The Financial Times (UK), Madame Figaro, the South China Morning Post, Tatler and Sing Tao Daily.
                     </p>
                     
                     <p className="text-gray-800 font-serif leading-relaxed text-sm md:text-base mb-4 text-left md:text-justify">
