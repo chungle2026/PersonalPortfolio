@@ -19,7 +19,7 @@ export default function About() {
                     </p>
                     
                     <p className="text-gray-800 font-serif leading-relaxed text-sm md:text-base mb-4 text-left md:text-justify">
-                      Notable collaborators include the Hong Kong Philharmonic Orchestra, Orquestra Sinfônica da Unicamp (Brazil), the Mivos Quartet, Juliette Kang (first associate concertmaster of the Philadelphia Orchestra) and Tony Yike Yang (Chopin Competition Laureate). Recent highlights include two premieres in the Shangyin Opera House (Shanghai): a solo baroque cello piece performed by Denise Fan in collaboration with Shanghai Conservatory and a CD recording for Soundbox Ventures featuring Baron Fenwick (piano) and Sam Boutris (clarinet).
+                      Notable collaborators include the Hong Kong Philharmonic, Orquestra Sinfônica da Unicamp (Brazil), the Mivos Quartet, Juliette Kang (first associate concertmaster of the Philadelphia Orchestra) and Tony Yike Yang (Chopin Competition Laureate). Recent highlights include two premieres in the Shangyin Opera House (Shanghai): a solo baroque cello piece performed by Denise Fan in collaboration with Shanghai Conservatory and a CD recording for Soundbox Ventures featuring Baron Fenwick (piano) and Sam Boutris (clarinet).
                     </p>
                     
                     <p className="text-gray-800 font-serif leading-relaxed text-sm md:text-base mb-4 text-left md:text-justify">
@@ -31,7 +31,7 @@ export default function About() {
                     </p>
                     
                     <p className="text-gray-800 font-serif leading-relaxed text-sm md:text-base mb-4 text-left md:text-justify">
-                      Other projects this year include a piano quartet performed at the Manhattan School of Music by Jenny Tsang and other students of Juilliard and MSM; works for piano and violin to be played around Cleveland by Joyce Yu and Minchae Kim; a visual arts-music collaboration with artist Sophie Cheung Hing Yee and cellist Ian Mok; and a solo piece to be premiered at SUNY Stony Brook by doctoral candidate Chloe Chung.
+                      Other projects this year include a piano quartet performed at the Manhattan School of Music by Jenny Tsang and other students of Juilliard and MSM; works for piano and violin to be played around Cleveland by Joyce Yu and Minchae Kim; a visual arts-music collaboration with artist Sophie Cheung Hing Yee and cellist Ian Mok; and a solo piano piece to be premiered at SUNY Stony Brook by doctoral candidate Chloe Chung.
                     </p>
                     
                     <p className="text-gray-800 font-serif leading-relaxed text-sm md:text-base mb-4 text-left md:text-justify">
