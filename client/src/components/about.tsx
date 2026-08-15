@@ -19,31 +19,31 @@ export default function About() {
                     </p>
                     
                     <p className="text-gray-800 font-serif leading-relaxed text-sm md:text-base mb-4 text-left md:text-justify">
-                      Notable collaborators include the Hong Kong Philharmonic Orchestra, Orquestra Sinfônica da Unicamp (Brazil), the Mivos Quartet, Juliette Kang (first associate concertmaster of the Philadelphia Orchestra) and Tony Yike Yang (Chopin Competition Laureate). This summer saw two premieres in the Shangyin Opera House (Shanghai): a solo baroque cello piece performed by Denise Fan in collaboration with Shanghai Conservatory and a CD recording for Soundbox Ventures featuring Sam Boutris (clarinet) and Baron Fenwick (piano).
+                      Notable collaborators include the Hong Kong Philharmonic Orchestra, Orquestra Sinfônica da Unicamp (Brazil), the Mivos Quartet, Juliette Kang (first associate concertmaster of the Philadelphia Orchestra) and Tony Yike Yang (Chopin Competition Laureate). Recent highlights include two premieres in the Shangyin Opera House (Shanghai): a solo baroque cello piece performed by Denise Fan in collaboration with Shanghai Conservatory and a CD recording for Soundbox Ventures featuring Baron Fenwick (piano) and Sam Boutris (clarinet).
                     </p>
                     
                     <p className="text-gray-800 font-serif leading-relaxed text-sm md:text-base mb-4 text-left md:text-justify">
-                      In recent years, his work has been premiered at venues including the Hong Kong Cultural Centre, the Kimmel Center Cultural Campus, Universität MDW (Vienna), Greenfield Hall (Manhattan School of Music), Shangyin Opera House (Shanghai), the Mütter Museum (Philadelphia), Trinity Cathedral (Cleveland), Yarmouk Cultural Center (Kuwait), Macau Contemporary Art Center and MGM Resort (Zhuhai).
+                      His works have been heard at major venues across five continents, including the Hong Kong Cultural Centre, the Kimmel Center Cultural Campus (Philadelphia), Universität MDW (Vienna), Yarmouk Cultural Center (Kuwait), Macau Contemporary Art Center, MGM Resort (Zhuhai), the Mütter Museum (Philadelphia), Trinity Cathedral (Cleveland), Shangyin Opera House (Shanghai) and Greenfield Hall (Manhattan School of Music).
                     </p>
 
                     <p className="text-gray-800 font-serif leading-relaxed text-sm md:text-base mb-4 text-left md:text-justify">
-                      His music and comments on the connection between AI and human artistry have been featured in publications such as The Financial Times (UK), Madame Figaro, the South China Morning Post, Tatler and Sing Tao Daily.
+                      His music and comments on the connection between AI and human artistry have been featured in publications such as The Financial Times (UK), Madame Figaro, Tatler, Sing Tao Daily and the South China Morning Post.
                     </p>
                     
                     <p className="text-gray-800 font-serif leading-relaxed text-sm md:text-base mb-4 text-left md:text-justify">
-                      Other confirmed projects this year include a piano quartet performed at the Manhattan School of Music by Jenny Tsang and other students of Juilliard and MSM; works for piano and violin to be played around Cleveland by Joyce Yu and Minchae Kim; a solo piece to be premiered at SUNY Stony Brook by doctoral candidate Chloe Chung; and a visual arts-music collaboration with artist Sophie Cheung Hing Yee and cellist Ian Mok.
+                      Other projects this year include a piano quartet performed at the Manhattan School of Music by Jenny Tsang and other students of Juilliard and MSM; works for piano and violin to be played around Cleveland by Joyce Yu and Minchae Kim; a visual arts-music collaboration with artist Sophie Cheung Hing Yee and cellist Ian Mok; and a solo piece to be premiered at SUNY Stony Brook by doctoral candidate Chloe Chung.
                     </p>
                     
                     <p className="text-gray-800 font-serif leading-relaxed text-sm md:text-base mb-4 text-left md:text-justify">
-                      Lewis has participated in many visual art collaborations and has also curated programs fostering dialogue between music and art for both art galleries and schools. In particular, he has collaborated with Henry Chu, a renowned digital artist, on immersive installations at Art Basel (Hong Kong), West Bund (Shanghai) and Hong Kong Design Centre. Their work features acoustic music and scores, whilst blending machine learning and innovative digital displays.
+                      Lewis is a frequent collaborator across visual disciplines. In particular, he has collaborated with Henry Chu, a renowned digital artist, on immersive installations at Art Basel (Hong Kong), West Bund (Shanghai) and Hong Kong Design Centre. Their work features acoustic music and scores, whilst blending machine learning and innovative digital displays. He has curated programs fostering dialogue between music and art for both art galleries and schools.
                     </p>
                     
                     <p className="text-gray-800 font-serif leading-relaxed text-sm md:text-base mb-4 text-left md:text-justify">
-                      Lewis has appeared in masterclasses with renowned composers, including Nico Muhly, Ellen Reid, Oscar Bianchi, Patricia Alessandrini, Sky Macklay and Detlev Müller-Siemens. He has attended festivals such as the São Paulo Contemporary Composers Festival, Sounds of Now Vienna and Soundbox Fellowship Program.
+                      Lewis has appeared in masterclasses with renowned composers, including Nico Muhly, Ellen Reid, Detlev Müller-Siemens, Patricia Alessandrini, Sky Macklay and Oscar Bianchi. He has attended festivals such as the São Paulo Contemporary Composers Festival, Sounds of Now Vienna and Soundbox Fellowship Program.
                     </p>
                     
                     <p className="text-gray-800 font-serif leading-relaxed text-sm md:text-base mb-0 text-left md:text-justify">
-                      A graduate of the University of Pennsylvania, he also completed graduate studies in both composition and piano at the Lamont School of Music (Denver) under department chairs Sean Friar and Stephanie Cheng. Beginning piano at age 5 in Australia, his prior teachers were faculty members of Sydney Conservatorium. Private teachers included Amy Sze (student of Nelita True), Joshua Tsai (student of Leon Fleisher) and Madeleine Lawrence (student of Neta Maughan).
+                      A graduate of the University of Pennsylvania, he also completed graduate studies in both composition and piano at the Lamont School of Music (Denver) under department chairs Sean Friar and Stephanie Cheng. Beginning piano at age 5 in Australia, his prior teachers were faculty members of Sydney Conservatorium. Private teachers included Joshua Tsai (student of Leon Fleisher), Madeleine Lawrence (student of Neta Maughan) and Amy Sze (student of Nelita True).
                     </p>
                   </div>
                 </div>
