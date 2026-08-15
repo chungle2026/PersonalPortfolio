@@ -27,7 +27,7 @@ export default function About() {
                     </p>
 
                     <p className="text-gray-800 font-serif leading-relaxed text-sm md:text-base mb-4 text-left md:text-justify">
-                      His music and comments on the connection between AI and human artistry have been featured in publications such as The Financial Times (UK), Madame Figaro, Tatler, Sing Tao Daily and the South China Morning Post.
+                      Lewis' music and comments on the connection between AI and human artistry have been featured in publications such as The Financial Times (UK), Madame Figaro, Tatler, Sing Tao Daily and the South China Morning Post.
                     </p>
                     
                     <p className="text-gray-800 font-serif leading-relaxed text-sm md:text-base mb-4 text-left md:text-justify">
@@ -35,7 +35,7 @@ export default function About() {
                     </p>
                     
                     <p className="text-gray-800 font-serif leading-relaxed text-sm md:text-base mb-4 text-left md:text-justify">
-                      Lewis is a frequent collaborator across visual disciplines. In particular, he has collaborated with Henry Chu, a renowned digital artist, on immersive installations at Art Basel (Hong Kong), West Bund (Shanghai) and Hong Kong Design Centre. Their work features acoustic music and scores, whilst blending machine learning and innovative digital displays. He has curated programs fostering dialogue between music and art for both art galleries and schools.
+                      A renowned collaborator across visual disciplines, he has curated programs fostering dialogue between music and art for both art galleries and schools. He has collaborated with Henry Chu, a renowned digital artist, on immersive installations at Art Basel (Hong Kong), West Bund (Shanghai) and Hong Kong Design Centre. Their work features acoustic music and scores, whilst blending machine learning and innovative digital displays.
                     </p>
                     
                     <p className="text-gray-800 font-serif leading-relaxed text-sm md:text-base mb-4 text-left md:text-justify">
