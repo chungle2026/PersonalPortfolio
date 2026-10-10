@@ -29,7 +29,7 @@ export default function Contact() {
                   rel="noopener noreferrer"
                   className="text-primary underline underline-offset-4 hover:text-secondary break-words"
                 >
-                  https://www.instagram.com/lewischungmusic/
+                  lewischungmusic
                 </a>
               </p>
             </div>
