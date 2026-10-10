@@ -19,7 +19,7 @@ export default function Contact() {
             <div className="w-full max-w-lg mx-auto lg:mx-0 space-y-6 text-gray-800 font-serif text-base leading-relaxed">
               <p>I would love to get in touch!</p>
               <p>
-                Please email me using the format:{"\u00a0\u00a0"}<strong>firstname.surname [at] gmail.com</strong>
+                Please email me using the format:{"\u00a0\u00a0"}<strong className="whitespace-nowrap">firstname.surname [at] gmail.com</strong>
               </p>
               <p>
                 Or message me on Instagram:{" "}
