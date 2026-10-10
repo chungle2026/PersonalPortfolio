@@ -19,7 +19,7 @@ export default function About() {
                     </p>
                     
                     <p className="text-gray-800 font-serif leading-relaxed text-sm md:text-base mb-4 text-left md:text-justify">
-                      Notable collaborators include the Hong Kong Philharmonic, Orquestra Sinfônica da Unicamp (Brazil), the Mivos Quartet, Juliette Kang (first associate concertmaster of the Philadelphia Orchestra) and Tony Yike Yang (Chopin Competition Laureate). Recent highlights include two premieres in the Shangyin Opera House (Shanghai): a solo baroque cello piece performed by Denise Fan in collaboration with Shanghai Conservatory and a CD recording for Soundbox Ventures featuring Baron Fenwick (piano) and Sam Boutris (clarinet).
+                      Notable collaborators include the Hong Kong Philharmonic, Orquestra Sinfônica da Unicamp (Brazil), the Mivos Quartet, Juliette Kang (first associate concertmaster of the Philadelphia Orchestra) and Tony Yike Yang (Chopin Competition Laureate). Recent highlights include two premieres in the Shangyin Opera House (Shanghai): a solo baroque cello piece performed by Denise Fan in collaboration with Shanghai Conservatory and a piece for an album recording for Soundbox Ventures featuring Baron Fenwick (piano) and Sam Boutris (clarinet).
                     </p>
                     
                     <p className="text-gray-800 font-serif leading-relaxed text-sm md:text-base mb-4 text-left md:text-justify">
