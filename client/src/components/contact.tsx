@@ -27,7 +27,7 @@ export default function Contact() {
                   href="https://www.instagram.com/lewischungmusic/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-primary font-bold underline underline-offset-4 hover:text-secondary break-words"
+                  className="text-purple-700 font-bold underline underline-offset-4 hover:text-purple-800 break-words"
                 >
                   lewischungmusic
                 </a>
