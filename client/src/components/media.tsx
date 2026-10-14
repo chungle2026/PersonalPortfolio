@@ -25,8 +25,9 @@ export default function Media() {
     {
       title: "Cross-Genre",
       videos: [
-        { id: "gAgXwdihxjY", title: "Cross-genre Performance 1" },
-        { id: "aBjkX0EnFMw", title: "Cross-genre Performance 2" }
+        { id: "g_QSFt53h6s", title: "Cross-genre Performance 1" },
+        { id: "gAgXwdihxjY", title: "Cross-genre Performance 2" },
+        { id: "aBjkX0EnFMw", title: "Cross-genre Performance 3" }
       ]
     }
   ];
