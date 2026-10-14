@@ -25,7 +25,7 @@ export default function Media() {
       ]
     },
     {
-      title: "Cross-Genre",
+      title: "Multi-Disciplinary and Immersive Art",
       videos: [
         { id: "g_QSFt53h6s", title: "Cross-genre Performance 1" },
         { id: "gAgXwdihxjY", title: "Cross-genre Performance 2" },
@@ -43,13 +43,13 @@ export default function Media() {
           {videoCategories.map((category, categoryIndex) => (
             <div key={categoryIndex}>
               <h3 className="text-xl font-display font-semibold text-primary mb-2 text-left">{category.title}</h3>
-              {category.title === "Cross-Genre" && (
+              {category.title === "Multi-Disciplinary and Immersive Art" && (
                 <p className="text-lg text-gray-600 mb-8 text-center">for example: film, visual art, anime and machine-learning. Samples available upon request. Also have experience in art-pairing curatorial work.</p>
               )}
-              {category.title !== "Cross-Genre" && <div className="mb-8"></div>}
+              {category.title !== "Multi-Disciplinary and Immersive Art" && <div className="mb-8"></div>}
               <div className="grid lg:grid-cols-2 gap-8">
                 {category.videos.map((video, videoIndex) => {
-                  const itemCount = category.videos.length + (category.title === "Cross-Genre" ? 1 : 0);
+                  const itemCount = category.videos.length + (category.title === "Multi-Disciplinary and Immersive Art" ? 1 : 0);
                   const isLastOdd = itemCount % 2 === 1 && videoIndex === itemCount - 1;
                   return (
                     <div key={videoIndex} className={`bg-gray-50 rounded-xl p-6 ${isLastOdd ? 'lg:col-span-2 lg:w-[calc(50%-1rem)] lg:mx-auto' : ''}`}>
@@ -66,7 +66,7 @@ export default function Media() {
                     </div>
                   );
                 })}
-                {category.title === "Cross-Genre" && (
+                {category.title === "Multi-Disciplinary and Immersive Art" && (
                   <div className="bg-gray-50 rounded-xl p-6">
                     <img
                       src={crossGenrePhoto}
