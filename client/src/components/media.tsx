@@ -25,7 +25,7 @@ export default function Media() {
       ]
     },
     {
-      title: "Multi-Disciplinary and Immersive Art",
+      title: "Multi-Disciplinary and Immersive Art Collaborations",
       videos: [
         { id: "g_QSFt53h6s", title: "Cross-genre Performance 1" },
         { id: "gAgXwdihxjY", title: "Cross-genre Performance 2" },
@@ -43,13 +43,13 @@ export default function Media() {
           {videoCategories.map((category, categoryIndex) => (
             <div key={categoryIndex}>
               <h3 className="text-xl font-display font-semibold text-primary mb-2 text-left">{category.title}</h3>
-              {category.title === "Multi-Disciplinary and Immersive Art" && (
+              {category.title === "Multi-Disciplinary and Immersive Art Collaborations" && (
                 <p className="text-lg text-gray-600 mb-8 text-center">for example: film, visual art, anime and machine-learning. Samples available upon request. Also have experience in art-pairing curatorial work.</p>
               )}
-              {category.title !== "Multi-Disciplinary and Immersive Art" && <div className="mb-8"></div>}
+              {category.title !== "Multi-Disciplinary and Immersive Art Collaborations" && <div className="mb-8"></div>}
               <div className="grid lg:grid-cols-2 gap-8">
                 {category.videos.map((video, videoIndex) => {
-                  const itemCount = category.videos.length + (category.title === "Multi-Disciplinary and Immersive Art" ? 1 : 0);
+                  const itemCount = category.videos.length + (category.title === "Multi-Disciplinary and Immersive Art Collaborations" ? 1 : 0);
                   const isLastOdd = itemCount % 2 === 1 && videoIndex === itemCount - 1;
                   return (
                     <div key={videoIndex} className={`bg-gray-50 rounded-xl p-6 ${isLastOdd ? 'lg:col-span-2 lg:w-[calc(50%-1rem)] lg:mx-auto' : ''}`}>
@@ -66,14 +66,15 @@ export default function Media() {
                     </div>
                   );
                 })}
-                {category.title === "Multi-Disciplinary and Immersive Art" && (
+                {category.title === "Multi-Disciplinary and Immersive Art Collaborations" && (
                   <div className="bg-gray-50 rounded-xl p-6">
-                    <img
-                      src={crossGenrePhoto}
-                      alt="Art gallery with a central pillar covered in musical scores and artworks displayed on the walls"
-                      className="w-full h-auto rounded-lg"
-                      loading="lazy"
-                    />
+                    <div className="aspect-video bg-gray-200 rounded-lg overflow-hidden">
+                      <img
+                        src={crossGenrePhoto}
+                        alt="Art gallery with a central pillar covered in musical scores and artworks displayed on the walls"
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
                   </div>
                 )}
               </div>
