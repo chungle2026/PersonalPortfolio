@@ -1,3 +1,5 @@
+import crossGenrePhoto from "@assets/0_WhatsApp_Image_2024-05-03_at_20.54.37_1791961311165.jpeg";
+
 export default function Media() {
   const videoCategories = [
     {
@@ -47,7 +49,8 @@ export default function Media() {
               {category.title !== "Cross-Genre" && <div className="mb-8"></div>}
               <div className="grid lg:grid-cols-2 gap-8">
                 {category.videos.map((video, videoIndex) => {
-                  const isLastOdd = category.videos.length % 2 === 1 && videoIndex === category.videos.length - 1;
+                  const itemCount = category.videos.length + (category.title === "Cross-Genre" ? 1 : 0);
+                  const isLastOdd = itemCount % 2 === 1 && videoIndex === itemCount - 1;
                   return (
                     <div key={videoIndex} className={`bg-gray-50 rounded-xl p-6 ${isLastOdd ? 'lg:col-span-2 lg:w-[calc(50%-1rem)] lg:mx-auto' : ''}`}>
                       <div className="aspect-video bg-gray-200 rounded-lg overflow-hidden">
@@ -63,6 +66,16 @@ export default function Media() {
                     </div>
                   );
                 })}
+                {category.title === "Cross-Genre" && (
+                  <div className="bg-gray-50 rounded-xl p-6">
+                    <img
+                      src={crossGenrePhoto}
+                      alt="Art gallery with a central pillar covered in musical scores and artworks displayed on the walls"
+                      className="w-full h-auto rounded-lg"
+                      loading="lazy"
+                    />
+                  </div>
+                )}
               </div>
             </div>
           ))}
